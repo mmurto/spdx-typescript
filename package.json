@@ -1,0 +1,20 @@
+{
+  "name": "spdx-typescript",
+  "version": "0.1.0",
+  "description": "Parse SPDX-reports.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "Mikko Murto",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
