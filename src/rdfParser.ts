@@ -30,7 +30,12 @@ interface Package {
   files: File[];
 }
 
-const parseSpdx = (data: IRootObject): Package => {
+export const parseSpdx = (input: any): Package => {
+  const data: IRootObject = (toJson(input.toString(), {
+    object: true,
+    arrayNotation: ['spdx:member', 'spdx:licenseInfoInFile'],
+  }) as unknown) as IRootObject;
+
   const packageSpdx =
     data['rdf:RDF']['spdx:SpdxDocument']['spdx:relationship'][
       'spdx:Relationship'
@@ -115,18 +120,3 @@ const parseSpdx = (data: IRootObject): Package => {
     files: files,
   };
 };
-
-readFile('./examples/spdx.rdf', (err, data) => {
-  const json: IRootObject = (toJson(data.toString(), {
-    object: true,
-    arrayNotation: ['spdx:member', 'spdx:licenseInfoInFile'],
-  }) as unknown) as IRootObject;
-
-  console.log(parseSpdx(json));
-
-  writeFile(
-    './examples/spdx_output.json',
-    JSON.stringify(parseSpdx(json), null, 2),
-    () => null
-  );
-});
