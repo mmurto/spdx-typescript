@@ -36,6 +36,11 @@ export const parseSpdx = (input: any): Package => {
     arrayNotation: ['spdx:member', 'spdx:licenseInfoInFile'],
   }) as unknown) as IRootObject;
 
+  const REPLACE_URI = data['rdf:RDF']['spdx:SpdxDocument']['rdf:about'].replace(
+    'SPDXRef-DOCUMENT',
+    ''
+  );
+
   const packageSpdx =
     data['rdf:RDF']['spdx:SpdxDocument']['spdx:relationship'][
       'spdx:Relationship'
@@ -72,7 +77,9 @@ export const parseSpdx = (input: any): Package => {
       hasFile['spdx:File']['spdx:licenseInfoInFile'].forEach(
         (licenseInfoInFile) => {
           scannerHits.push(
-            licenseInfoInFile['rdf:resource'].replace(SPDX_LICENSE_URI, '')
+            licenseInfoInFile['rdf:resource']
+              .replace(SPDX_LICENSE_URI, '')
+              .replace(REPLACE_URI, '')
           );
         }
       );
@@ -87,7 +94,9 @@ export const parseSpdx = (input: any): Package => {
         'spdx:DisjunctiveLicenseSet'
       ]['spdx:member'].forEach((member) => {
         licenseConclusions.push(
-          member['rdf:resource'].replace(SPDX_LICENSE_URI, '')
+          member['rdf:resource']
+            .replace(SPDX_LICENSE_URI, '')
+            .replace(REPLACE_URI, '')
         );
       });
     }
