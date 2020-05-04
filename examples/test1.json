@@ -1,0 +1,2452 @@
+{
+  "documentCreationInformation": {
+    "SPDXVersion": "SPDX-2.1",
+    "dataLicense": "CC0-1.0",
+    "SPDXIdentifier": "SPDXRef-DOCUMENT",
+    "documentName": "/srv/fossology/repository/report",
+    "SPDXDocumentNamespace": "http://e398015ec019/repo/SPDX2_recipes.git_1587153481-spdx.rdf",
+    "licenseListVersion": "2.6",
+    "creator": {
+      "person": "fossy (y)",
+      "organization": "",
+      "tool": "spdx2"
+    },
+    "created": "2020-04-17T19:58:02Z",
+    "documentComment": "This document was created using license information and a generator from Fossology."
+  },
+  "packageInformation": {
+    "packageName": "recipes.git",
+    "packageSPDXIdentifier": "SPDXRef-upload2",
+    "packangeFileName": "recipes.git",
+    "packageDownloadLocation": "noassertion",
+    "packageVerificationCode": "eec310e540f165fa3c42ea883e8cdaaa8c578d4e",
+    "packageChecksum": {
+      "SHA1": "63bc1c52e25932174cf37584a76d9fdc2b1e9028",
+      "MD5": "db955ec13878b003df0a4b89ce91fc3c"
+    },
+    "concludedLicense": [
+      "noassertion"
+    ],
+    "allLicensesInformationFromFiles": "noassertion",
+    "declaredLicense": "noassertion",
+    "commentsOnLicense": "licenseInfoInFile determined by Scanners:\n   - nomos (\"3.8.0-rc1-25-gb5701367d\".b57013)\n   - monk (\"3.8.0-rc1-25-gb5701367d\".b57013)\n   - ojo (\"3.8.0-rc1-25-gb5701367d\".b57013)",
+    "copyrightText": "noassertion"
+  },
+  "fileInformation": [
+    {
+      "fileName": "cookbook/static/webfonts/fa-solid-900.svg",
+      "fileSPDXIdentifier": "SPDXRef-item131",
+      "fileChecksum": {
+        "SHA1": "55a9f6dd285c88c6c9847fee0d5ce127c4c61c52",
+        "MD5": "c2801fb415f03c7b170934769d7b5397"
+      },
+      "concludedLicense": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "licenseInformationInFile": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "copyrightText": "Copyright (c) Font Awesome"
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-regular-400.svg",
+      "fileSPDXIdentifier": "SPDXRef-item126",
+      "fileChecksum": {
+        "SHA1": "dd1b42f8776d9b48adda30b0069aa0e5f18989d3",
+        "MD5": "7b9568e6389b1f8ae0902cd39665fc1e"
+      },
+      "concludedLicense": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "licenseInformationInFile": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "copyrightText": "Copyright (c) Font Awesome"
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-brands-400.svg",
+      "fileSPDXIdentifier": "SPDXRef-item134",
+      "fileChecksum": {
+        "SHA1": "3e9abaae5dc647f4019a4dcdde1b51f14c2054e8",
+        "MD5": "a9c4bb7348f42626454c988dbde1d0a0"
+      },
+      "concludedLicense": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "licenseInformationInFile": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "copyrightText": "Copyright (c) Font Awesome"
+    },
+    {
+      "fileName": "cookbook/static/themes/superhero.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item158",
+      "fileChecksum": {
+        "SHA1": "17b939125e4b704af0e2bb469e003cd08248ce1d",
+        "MD5": "e24181e22f7821f125e09555c6bdb7f5"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": "Copyright 2012-2019 Thomas Park Licensed under MIT Based on Bootstrap\n                  Copyright 2011-2019 Twitter, Inc.\n                  Copyright 2011-2019 The Bootstrap Authors"
+    },
+    {
+      "fileName": "cookbook/static/emojionearea/emojionearea.min.js",
+      "fileSPDXIdentifier": "SPDXRef-item143",
+      "fileChecksum": {
+        "SHA1": "97651e1ab035839d1e0c1d2e87bb5c10415778cd",
+        "MD5": "6ed96b8f6f1a1b8ecd2a2c668afa2190"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/emojionearea/emojionearea.js",
+      "fileSPDXIdentifier": "SPDXRef-item145",
+      "fileChecksum": {
+        "SHA1": "88be046f1902a53699026136442aba546d7d7f88",
+        "MD5": "c02d8baa81157c92973fffb15b1c2b28"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": "Copyright Andrey Izman and other contributors"
+    },
+    {
+      "fileName": "LICENSE.md",
+      "fileSPDXIdentifier": "SPDXRef-item174",
+      "fileChecksum": {
+        "SHA1": "4f265151b4ddf6efdc94270026e3e5b544742f49",
+        "MD5": "5bcd615b5af6f8bc7ea97d192daaad28"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/themes/select2-bootstrap-theme.css",
+      "fileSPDXIdentifier": "SPDXRef-item157",
+      "fileChecksum": {
+        "SHA1": "fa29b07877491f27421aacaf735b4231a94dbda3",
+        "MD5": "d007f71f4d38606d656dec79df79a7de"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": "Copyright 2015-2017 Florian Kissling and contributors (https://github.com/select2/select2-bootstrap-theme/graphs/contributors)"
+    },
+    {
+      "fileName": "cookbook/static/themes/flatly.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item156",
+      "fileChecksum": {
+        "SHA1": "4e628f2fb27eece575c31d10c7ff7b32d5c7c308",
+        "MD5": "f99bb7c874e0573290d2b28b7c0c25d8"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": "Copyright 2012-2019 Thomas Park Licensed under MIT Based on Bootstrap\n                  Copyright 2011-2019 Twitter, Inc.\n                  Copyright 2011-2019 The Bootstrap Authors"
+    },
+    {
+      "fileName": "cookbook/static/themes/darkly.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item159",
+      "fileChecksum": {
+        "SHA1": "d16ddfc77f7dd8e0441beec359c458cd6bd5a56d",
+        "MD5": "991e7d5ebd979a445f06697d9eb30f89"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": "Copyright 2012-2019 Thomas Park Licensed under MIT Based on Bootstrap\n                  Copyright 2011-2019 Twitter, Inc.\n                  Copyright 2011-2019 The Bootstrap Authors"
+    },
+    {
+      "fileName": "cookbook/static/themes/bootstrap.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item155",
+      "fileChecksum": {
+        "SHA1": "d305110fb79113a961394b433d851a3410342b8c",
+        "MD5": "7cc40c199d128af6b01e74a28c5900b0"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": "Copyright 2011-2019 Twitter, Inc.\n                  Copyright 2011-2019 The Bootstrap Authors"
+    },
+    {
+      "fileName": "cookbook/static/fontawesome/fontawesome_all.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item147",
+      "fileChecksum": {
+        "SHA1": "29250ef1fa6bfbda364a1112a86b2fb7157dd44b",
+        "MD5": "41d394990448b2c2b1afe840e837dc8e"
+      },
+      "concludedLicense": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "licenseInformationInFile": [
+        "MIT",
+        "OFL-1.1"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "README.md",
+      "fileSPDXIdentifier": "SPDXRef-item170",
+      "fileChecksum": {
+        "SHA1": "f11abf5f29ee8d7b2d33ee8072b739e9d6b9819f",
+        "MD5": "8836b2e8bdca8ffdc99e5624a16dc781"
+      },
+      "concludedLicense": [
+        "MIT"
+      ],
+      "licenseInformationInFile": [
+        "MIT"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "manage.py",
+      "fileSPDXIdentifier": "SPDXRef-item4",
+      "fileChecksum": {
+        "SHA1": "88e8218673dd581eb21ad798e7e366394cf57eba",
+        "MD5": "9607b4d754c5b61328df637f7d04238c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "boot.sh",
+      "fileSPDXIdentifier": "SPDXRef-item5",
+      "fileChecksum": {
+        "SHA1": "cf1f1b1dde44b4aeacc590094a30d9bf875fdd14",
+        "MD5": "f3754bad21ed5849b9521808f47f6a8d"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0007_auto_20191226_0852.py",
+      "fileSPDXIdentifier": "SPDXRef-item8",
+      "fileChecksum": {
+        "SHA1": "259fbfa2d273ed130f70c28dbcb82337443dd17d",
+        "MD5": "80c2afbe73367cfafe8a54d97192a34b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0023_auto_20200216_2311.py",
+      "fileSPDXIdentifier": "SPDXRef-item9",
+      "fileChecksum": {
+        "SHA1": "1dc4d478ee12adf502a490e3ba92902a31dd9b63",
+        "MD5": "789e9840e2bb6b5671b8105b4359dd64"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0024_auto_20200216_2313.py",
+      "fileSPDXIdentifier": "SPDXRef-item10",
+      "fileChecksum": {
+        "SHA1": "73cd282d8ba6dd541e552dbdfb0b504c331132db",
+        "MD5": "dbb94fb99646fe728dc3658a298091c5"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0009_auto_20200130_1056.py",
+      "fileSPDXIdentifier": "SPDXRef-item11",
+      "fileChecksum": {
+        "SHA1": "3f00f22d5d27af1a44bf1e7ecfbdb7d8ff59ec34",
+        "MD5": "283546856c0c54dacd1f8012b611f527"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0030_recipeingredient_note.py",
+      "fileSPDXIdentifier": "SPDXRef-item12",
+      "fileChecksum": {
+        "SHA1": "e0a439d1ee8d6c3af190b19f681af518db79a763",
+        "MD5": "be7dcd4eda99b2ce5cc36a0d7346d02c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0016_auto_20200213_2335.py",
+      "fileSPDXIdentifier": "SPDXRef-item13",
+      "fileChecksum": {
+        "SHA1": "a96cd34103e114ff7f5774304639a0c357ec9db3",
+        "MD5": "14270fdc0896dffe308329b36e39564d"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0002_auto_20191119_2035.py",
+      "fileSPDXIdentifier": "SPDXRef-item14",
+      "fileChecksum": {
+        "SHA1": "dc3d640bcd3552a70c5adea42fe98336e454091a",
+        "MD5": "598d31d081994824dd10694d3f87f852"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0017_auto_20200216_2257.py",
+      "fileSPDXIdentifier": "SPDXRef-item15",
+      "fileChecksum": {
+        "SHA1": "323f3a46a7e519d6b2cdc2c3c4be78c548f10b27",
+        "MD5": "f4762446a1abe969f61a6f3d8042ac06"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0027_ingredient_recipe.py",
+      "fileSPDXIdentifier": "SPDXRef-item16",
+      "fileChecksum": {
+        "SHA1": "05bcfb05ba59f33958d11ad76088ab0abea6b5bb",
+        "MD5": "ac814f4815f947b75be4826673b8c731"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0001_initial.py",
+      "fileSPDXIdentifier": "SPDXRef-item17",
+      "fileChecksum": {
+        "SHA1": "1cc2204277b995d40d1e587c4c9c22828f5ad5a7",
+        "MD5": "24aad486cda83c3c5fff99d5aca57dec"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0021_auto_20200216_2309.py",
+      "fileSPDXIdentifier": "SPDXRef-item18",
+      "fileChecksum": {
+        "SHA1": "ba1ab4db316b5712908be1f7c3788e153519339c",
+        "MD5": "f5a20ac7a03d38ea46e0c93f0efde015"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0026_auto_20200219_1605.py",
+      "fileSPDXIdentifier": "SPDXRef-item19",
+      "fileChecksum": {
+        "SHA1": "f28c98984e665a4a135299c776a57ef481d1a9cc",
+        "MD5": "d7a8694bfa34fdea91038cdab726e68b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0012_auto_20200130_1116.py",
+      "fileSPDXIdentifier": "SPDXRef-item20",
+      "fileChecksum": {
+        "SHA1": "ccf79dab7153c57c65408e6b4297f61d6fbe5a24",
+        "MD5": "f9e8fea836ecdaa7b2c1e2f88929c5d7"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0003_enable_pgtrm.py",
+      "fileSPDXIdentifier": "SPDXRef-item21",
+      "fileChecksum": {
+        "SHA1": "bc40b72f416f645e5a76653014bc1220de46ec87",
+        "MD5": "63a50201711de81c69a317d5f10d10ff"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0011_remove_recipeingredients_unit.py",
+      "fileSPDXIdentifier": "SPDXRef-item22",
+      "fileChecksum": {
+        "SHA1": "d7a1c50394d3957fdfc4a94c3502c44c1fe93287",
+        "MD5": "3d5e201571253dd9cfc326d10b0134a2"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0028_auto_20200317_1901.py",
+      "fileSPDXIdentifier": "SPDXRef-item23",
+      "fileChecksum": {
+        "SHA1": "89a8946c75a11414490034b482eb76d0d361236b",
+        "MD5": "6c904df0dd76a38d0bfd2bba2f94d410"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0004_storage_created_by.py",
+      "fileSPDXIdentifier": "SPDXRef-item24",
+      "fileChecksum": {
+        "SHA1": "8795d7c686b2038d50ea29963cbca9f062f82eb3",
+        "MD5": "e5867d691627e85dbd15ac99617e00f0"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0010_auto_20200130_1059.py",
+      "fileSPDXIdentifier": "SPDXRef-item25",
+      "fileChecksum": {
+        "SHA1": "bdb257ff88828d8f49e5714c8347a8e95cfed914",
+        "MD5": "2af92ea677f4b6e895407eb98499bfb5"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0008_mealplan.py",
+      "fileSPDXIdentifier": "SPDXRef-item26",
+      "fileChecksum": {
+        "SHA1": "6060c83348b1103dc89fb8054e8b89907452b39f",
+        "MD5": "10e727fa925678f859708fc5029164ee"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0022_remove_recipeingredient_name.py",
+      "fileSPDXIdentifier": "SPDXRef-item27",
+      "fileChecksum": {
+        "SHA1": "77d6ea9dc9de4bc6a12818e4b3b21fa6a0d28bb8",
+        "MD5": "84d78c95a618630947d44c8d6ad092fe"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0014_auto_20200213_2332.py",
+      "fileSPDXIdentifier": "SPDXRef-item28",
+      "fileChecksum": {
+        "SHA1": "91ccc9af5b0ab3b83b091c59d3de97a722f19203",
+        "MD5": "6a866d3924f4ea719d65fc10e928e725"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0029_auto_20200317_1901.py",
+      "fileSPDXIdentifier": "SPDXRef-item29",
+      "fileChecksum": {
+        "SHA1": "e8f0bf8603d0cac6ab86a9e18d3d5932a6bb0634",
+        "MD5": "1cec07ebd232e632fb23829d6014ffac"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0018_auto_20200216_2303.py",
+      "fileSPDXIdentifier": "SPDXRef-item30",
+      "fileChecksum": {
+        "SHA1": "83829cfe12c045830d8123a1f86db9ce4636f554",
+        "MD5": "9bf860bce31efa86b241208642666998"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0013_userpreference.py",
+      "fileSPDXIdentifier": "SPDXRef-item31",
+      "fileChecksum": {
+        "SHA1": "0da502e89de4488a26a5077f746c5b75de4a33ef",
+        "MD5": "abe3271f40b44fc147d51eaec72edaed"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item32",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0006_recipe_image.py",
+      "fileSPDXIdentifier": "SPDXRef-item33",
+      "fileChecksum": {
+        "SHA1": "65e728b9c54841983ac0c325d8840bc3adfea5f2",
+        "MD5": "1530d3ae97299876e27c4c900d17d0d3"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0019_ingredient.py",
+      "fileSPDXIdentifier": "SPDXRef-item34",
+      "fileChecksum": {
+        "SHA1": "fc2003e08db1fd152a64eeb8c09eecd349b75631",
+        "MD5": "3fdc43ebd43a3b92dd3a2352ffaa260a"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0015_auto_20200213_2334.py",
+      "fileSPDXIdentifier": "SPDXRef-item35",
+      "fileChecksum": {
+        "SHA1": "ce3cf1d13c7bfe77935f23d38670864aafde6f91",
+        "MD5": "2ec0084e1ae6802c1e63698523985dbe"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0005_recipebook_recipebookentry.py",
+      "fileSPDXIdentifier": "SPDXRef-item36",
+      "fileChecksum": {
+        "SHA1": "8343e90cfe7d640cdf762386128ee304724ae17d",
+        "MD5": "ede11290536ebf15a5ab46c817190dc8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0025_userpreference_nav_color.py",
+      "fileSPDXIdentifier": "SPDXRef-item37",
+      "fileChecksum": {
+        "SHA1": "4a7301774ae2be085816b53206b7a5502f91c998",
+        "MD5": "1da5c7a278ff29ef953da07dd933cfe4"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/migrations/0020_recipeingredient_ingredient.py",
+      "fileSPDXIdentifier": "SPDXRef-item38",
+      "fileChecksum": {
+        "SHA1": "7726503ea42454dc3d733d99f23ea3118ebd88ef",
+        "MD5": "c92d446200c7d977b64985c4bde8cd9d"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/helper/mdx_attributes.py",
+      "fileSPDXIdentifier": "SPDXRef-item40",
+      "fileChecksum": {
+        "SHA1": "d18d2fa7e23c8590b90dd04f3a69f655ba5681f7",
+        "MD5": "4d20a2318d07665df3af1831727daad8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/helper/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item41",
+      "fileChecksum": {
+        "SHA1": "72c181bc776367c4ac6690e53d8397ac099df1bd",
+        "MD5": "e59c5802965b6920c53c06859fffce5b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/helper/dal.py",
+      "fileSPDXIdentifier": "SPDXRef-item42",
+      "fileChecksum": {
+        "SHA1": "b3c31850767c039036578436e2eb8a528340ab01",
+        "MD5": "206e2063c71ad1fe369a72b6ef9f6b33"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/delete.py",
+      "fileSPDXIdentifier": "SPDXRef-item44",
+      "fileChecksum": {
+        "SHA1": "13d41fbc833843bfe9b86d6b8fa2da76600b65cf",
+        "MD5": "91a2e6b9c2194b32bd035690e170d4b8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/data.py",
+      "fileSPDXIdentifier": "SPDXRef-item45",
+      "fileChecksum": {
+        "SHA1": "0f00eaa89b4b52b236d57dacaeb3d2c13d55e133",
+        "MD5": "709f22a9004019b0b2bdc469ffaef8e3"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/new.py",
+      "fileSPDXIdentifier": "SPDXRef-item46",
+      "fileChecksum": {
+        "SHA1": "af424a68b1fe06d014a1a85817c07c710721b6c8",
+        "MD5": "e7fc0f547efadd864033714242f1e530"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/api.py",
+      "fileSPDXIdentifier": "SPDXRef-item47",
+      "fileChecksum": {
+        "SHA1": "0146f6e1c17bebf4c6a6d5608b7ef3f60eeac090",
+        "MD5": "be3ffac87bcee19605cd3b89e62d0ccc"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/lists.py",
+      "fileSPDXIdentifier": "SPDXRef-item48",
+      "fileChecksum": {
+        "SHA1": "d06fccc3d45cb52d12e3c85c6778965ee36ef1ff",
+        "MD5": "61c2fbca6046d8c6ccae8e06be7130fe"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/edit.py",
+      "fileSPDXIdentifier": "SPDXRef-item49",
+      "fileChecksum": {
+        "SHA1": "f423fdb21f6b55b1d8dea1e028a85093fd3238e4",
+        "MD5": "ed120d467aa8daf95042475fe4257d40"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item50",
+      "fileChecksum": {
+        "SHA1": "8a2bea2051692d150600c03fd2f13a26ddd44c9a",
+        "MD5": "d8a1e8647b3d7833cfc49caede9a9480"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/views/views.py",
+      "fileSPDXIdentifier": "SPDXRef-item51",
+      "fileChecksum": {
+        "SHA1": "b6543e9f6d543717676b9f740d132adc72c6fc5d",
+        "MD5": "bad23a0715a76460f10be39a964912c9"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/forms.py",
+      "fileSPDXIdentifier": "SPDXRef-item52",
+      "fileChecksum": {
+        "SHA1": "4a3e2e53376db06f5100fa268600504039a88182",
+        "MD5": "173872d205fcae24c3bb567b8feb4e15"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/apps.py",
+      "fileSPDXIdentifier": "SPDXRef-item53",
+      "fileChecksum": {
+        "SHA1": "ba6e0aa9224d5ea129289d0a51d3f319d7431d9d",
+        "MD5": "cc1bc122686d2ba2535d3df81223284e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/forms/ingredients.html",
+      "fileSPDXIdentifier": "SPDXRef-item56",
+      "fileChecksum": {
+        "SHA1": "00a5da3ef487a98234809c721117801bdb43d091",
+        "MD5": "0396a9195868fb35f0e79b21207472b9"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/forms/edit_import_recipe.html",
+      "fileSPDXIdentifier": "SPDXRef-item57",
+      "fileChecksum": {
+        "SHA1": "f9d6696170f16c3171bca08517e6ea26b5a81584",
+        "MD5": "52807740b2f304e0699e46cdc67673fe"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/forms/edit_internal_recipe.html",
+      "fileSPDXIdentifier": "SPDXRef-item58",
+      "fileChecksum": {
+        "SHA1": "5bc0d6c7e6b4647f92a3d522f6dc1f9ad15bf4a7",
+        "MD5": "633e8f180cab25a739562541b9a55415"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/generic/edit_template.html",
+      "fileSPDXIdentifier": "SPDXRef-item60",
+      "fileChecksum": {
+        "SHA1": "7bdfc79bdf82bf0dcd741feea398659532c00339",
+        "MD5": "53f1340ebb88f37d5f9b858cf0118213"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/generic/new_template.html",
+      "fileSPDXIdentifier": "SPDXRef-item61",
+      "fileChecksum": {
+        "SHA1": "c1ef2dfc02d4e5bf364a625ee978c95f0eee34c0",
+        "MD5": "b04bc6a83e89ef630cc7295def507830"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/generic/table_template.html",
+      "fileSPDXIdentifier": "SPDXRef-item62",
+      "fileChecksum": {
+        "SHA1": "9637260c7b74174426707e1f7b8965dc3facec38",
+        "MD5": "9e87b952dde66bbf2a34e14ebdc0848c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/generic/list_template.html",
+      "fileSPDXIdentifier": "SPDXRef-item63",
+      "fileChecksum": {
+        "SHA1": "f7e74ec7c4ec310ea47fd4166e3ae3a541fa007f",
+        "MD5": "b5680b280a0a239e95c0b546c03aca32"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/generic/delete_template.html",
+      "fileSPDXIdentifier": "SPDXRef-item64",
+      "fileChecksum": {
+        "SHA1": "16d347aa37b0babc88e8edf2a277f495745d6e4d",
+        "MD5": "8243cfe73e7b73c0bfb9429e5466ba03"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/include/recipe_open_modal.html",
+      "fileSPDXIdentifier": "SPDXRef-item66",
+      "fileChecksum": {
+        "SHA1": "18aef8a6d1c4940c801b359c097899089667812c",
+        "MD5": "b418915a639deebc69dcd58c1b4a57c8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/include/storage_backend_warning.html",
+      "fileSPDXIdentifier": "SPDXRef-item67",
+      "fileChecksum": {
+        "SHA1": "9ae6785154f0e5ab5a8709614f8518ee8cd186d6",
+        "MD5": "b64fbd44cbdf964f8a8af04b994bdad0"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/test.html",
+      "fileSPDXIdentifier": "SPDXRef-item68",
+      "fileChecksum": {
+        "SHA1": "31b9ed5019beb6fa1e12c1c4ee08aebe635aadd8",
+        "MD5": "41f625cf46ee652c35a0a270cfb75474"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/settings.html",
+      "fileSPDXIdentifier": "SPDXRef-item69",
+      "fileChecksum": {
+        "SHA1": "81886670e05f55f4bbfd26897b7cfedb6f23a170",
+        "MD5": "b0a58913138092a4f41f66a306a44f47"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/books.html",
+      "fileSPDXIdentifier": "SPDXRef-item70",
+      "fileChecksum": {
+        "SHA1": "4d3499c9e707ff3510de6761b23b36103555fac2",
+        "MD5": "2dfa66382886a3a57da48292a07e1c4a"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/meal_plan.html",
+      "fileSPDXIdentifier": "SPDXRef-item71",
+      "fileChecksum": {
+        "SHA1": "727ed3d12a3d3aec30c226b801872982cf2747d2",
+        "MD5": "78ff173a271c48da26a1036999c9c762"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/index.html",
+      "fileSPDXIdentifier": "SPDXRef-item72",
+      "fileChecksum": {
+        "SHA1": "850f9546444282e5a7f3b48a240c3dca36daccc3",
+        "MD5": "1ce43402d7530fc28ab7d3089f4325d8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/batch/monitor.html",
+      "fileSPDXIdentifier": "SPDXRef-item74",
+      "fileChecksum": {
+        "SHA1": "a26211b83d432b0dfc2898c4bebbfeb7b582c5b9",
+        "MD5": "47caf58475c88bb84cb31f6dcd9de6d8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/batch/edit.html",
+      "fileSPDXIdentifier": "SPDXRef-item75",
+      "fileChecksum": {
+        "SHA1": "cd4aa18bc2c3fc9aaf77ff52442cf5d78424dc07",
+        "MD5": "e519925be2a13e3fb21f571dc9b2e247"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/batch/waiting.html",
+      "fileSPDXIdentifier": "SPDXRef-item76",
+      "fileChecksum": {
+        "SHA1": "55310dd846d9228014abc25bd7aad45b6075f15c",
+        "MD5": "7f23803a836a6ccd7ecfaa737b2996d0"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/base.html",
+      "fileSPDXIdentifier": "SPDXRef-item77",
+      "fileChecksum": {
+        "SHA1": "e82eabfad67a08596206c9fb9f150b841b53504c",
+        "MD5": "389c4a56f990e17ec9c441d3801bd03b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/registration/login.html",
+      "fileSPDXIdentifier": "SPDXRef-item79",
+      "fileChecksum": {
+        "SHA1": "f45f669ac5bd88d1b1b338324fa14c104c5174d7",
+        "MD5": "ed2ad86b67bd4f14969f20cd68b4096e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/recipe_view.html",
+      "fileSPDXIdentifier": "SPDXRef-item80",
+      "fileChecksum": {
+        "SHA1": "813208c7f35b58a89a29cd2467f82b020d173e3c",
+        "MD5": "e93dfefd78cd65f00146d51fe5b572dc"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/shopping_list.html",
+      "fileSPDXIdentifier": "SPDXRef-item81",
+      "fileChecksum": {
+        "SHA1": "a88200d565d8fa3a85c2be6a78cd99ca2d4ebb98",
+        "MD5": "fe8df80db003ae8aafc95efcf2f33ff5"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templates/stats.html",
+      "fileSPDXIdentifier": "SPDXRef-item82",
+      "fileChecksum": {
+        "SHA1": "80fd71ae0014b4db6850f8abf4320ce9da8d613c",
+        "MD5": "591c04ba0c19139f90636c65c4d3de42"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/urls.py",
+      "fileSPDXIdentifier": "SPDXRef-item83",
+      "fileChecksum": {
+        "SHA1": "1db53e08fa41f63c3cae2c9b6313debf334f4d30",
+        "MD5": "9011007af709cbe91f71a98f1090dcca"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item84",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templatetags/theming_tags.py",
+      "fileSPDXIdentifier": "SPDXRef-item86",
+      "fileChecksum": {
+        "SHA1": "0426ed681601577ef6ae545df50f270a36f50832",
+        "MD5": "09aec96ac1339dbc99e3ef8a35dc5972"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/templatetags/custom_tags.py",
+      "fileSPDXIdentifier": "SPDXRef-item87",
+      "fileChecksum": {
+        "SHA1": "dc7d7486049cc3649fc78d6fd30906df1c1f5526",
+        "MD5": "7895ab70368fb595a9703f64082ee27b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/provider/provider.py",
+      "fileSPDXIdentifier": "SPDXRef-item89",
+      "fileChecksum": {
+        "SHA1": "5dac40e0b759d7e9314ebfb2f4a8d648f0fa1da0",
+        "MD5": "42fb0d4272b6b612860de99a4e8464e4"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/provider/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item90",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/provider/nextcloud.py",
+      "fileSPDXIdentifier": "SPDXRef-item91",
+      "fileChecksum": {
+        "SHA1": "063ec0301b0e3ab6e5c205c9bed6f938a768f61a",
+        "MD5": "c6b15bfa442330cd682f94d8d7607a14"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/provider/dropbox.py",
+      "fileSPDXIdentifier": "SPDXRef-item92",
+      "fileChecksum": {
+        "SHA1": "7f38c4798e66c4f6af7b62c2d103342add0e9d2a",
+        "MD5": "91442b2ca164b5e332debfe17191bbfb"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/models.py",
+      "fileSPDXIdentifier": "SPDXRef-item93",
+      "fileChecksum": {
+        "SHA1": "7d56e43f6c13e4d122e57dc4665d2e74c9da8117",
+        "MD5": "2ccb2cdac703b90d75713404de1702c8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/fixtures/german_example_tags.json",
+      "fileSPDXIdentifier": "SPDXRef-item95",
+      "fileChecksum": {
+        "SHA1": "39d7f55b9c311ab14b330212fc8fffa601ca149e",
+        "MD5": "f57826246444ec4baca779cb0574c1f2"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/filters.py",
+      "fileSPDXIdentifier": "SPDXRef-item96",
+      "fileChecksum": {
+        "SHA1": "739f2fbd6427be332c89a011be0e15a303775283",
+        "MD5": "d593bc432899c330dbc26d2e8e5e8a5c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tables.py",
+      "fileSPDXIdentifier": "SPDXRef-item97",
+      "fileChecksum": {
+        "SHA1": "96caa59b90a69750d474b25d5466ffca3fc82c10",
+        "MD5": "9527e88a06533f14914e9bdf88e3df53"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/views/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item100",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/views/test_views_general.py",
+      "fileSPDXIdentifier": "SPDXRef-item101",
+      "fileChecksum": {
+        "SHA1": "7affa123d484ed86ed9574c90ad797c9bcd9f324",
+        "MD5": "e65a1fc9d8da27d8c6d0d9d46dd31fcc"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/views/test_views.py",
+      "fileSPDXIdentifier": "SPDXRef-item102",
+      "fileChecksum": {
+        "SHA1": "5648d0bf024e25f1246b13f2a3b4da07551dec0b",
+        "MD5": "0cf6f7cffe9afd9bdb5fc0d41d580f8e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item103",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/test_setup.py",
+      "fileSPDXIdentifier": "SPDXRef-item104",
+      "fileChecksum": {
+        "SHA1": "12eca2569af5327768232e4d7b98af3c9d838c81",
+        "MD5": "1a08c8c3fddd491d687aacb6a51cba68"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/edits/test_edits_recipe.py",
+      "fileSPDXIdentifier": "SPDXRef-item106",
+      "fileChecksum": {
+        "SHA1": "a1f324f67454c37a39e29193696942e3adea3561",
+        "MD5": "e241b7b61c50e9c1907048f9aac18148"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/edits/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item107",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/edits/test_edits_storage.py",
+      "fileSPDXIdentifier": "SPDXRef-item108",
+      "fileChecksum": {
+        "SHA1": "f6898ea1cfbd99ae2d757246d95557afc61cbfe7",
+        "MD5": "c4a3b649870105e3ba9ff03e4383c17e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/resources/image.png",
+      "fileSPDXIdentifier": "SPDXRef-item110",
+      "fileChecksum": {
+        "SHA1": "f1da17ffb3490d99d4f4c7dd603865ae40736d75",
+        "MD5": "0f2d8a8cf6492182102f3bae3b3378e1"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/tests/resources/image.jpg",
+      "fileSPDXIdentifier": "SPDXRef-item111",
+      "fileChecksum": {
+        "SHA1": "c51fb6a787366badc563382ea26362f0d9ab3391",
+        "MD5": "4ac375b62c35069165f6b19129184023"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/admin.py",
+      "fileSPDXIdentifier": "SPDXRef-item112",
+      "fileChecksum": {
+        "SHA1": "adc9a0b35082963a418522d824c14aecefc97cbf",
+        "MD5": "cd93957d9544d63dbb7171fbd4541317"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/tabulator/tabulator_bootstrap4.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item115",
+      "fileChecksum": {
+        "SHA1": "31f5f7c92b6bcc29f4e72e1957006d3983723b98",
+        "MD5": "c9ae7f865b23074c7738ceea5dcba1aa"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "(c) Oliver Folkerd"
+    },
+    {
+      "fileName": "cookbook/static/tabulator/tabulator_midnight.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item116",
+      "fileChecksum": {
+        "SHA1": "c120376bb2500fb934e851f722c38352c00ccad4",
+        "MD5": "cca172e948e99255a0c70a5ffdd06ae4"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "(c) Oliver Folkerd"
+    },
+    {
+      "fileName": "cookbook/static/tabulator/tabulator.min.js",
+      "fileSPDXIdentifier": "SPDXRef-item117",
+      "fileChecksum": {
+        "SHA1": "cc1d5b56ddc52954682fc9ce7fca3c985f45a0bc",
+        "MD5": "bdd7cc83a4468d9c4454f928a7530aad"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "(c) Oliver Folkerd"
+    },
+    {
+      "fileName": "cookbook/static/tabulator/tabulator_site.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item118",
+      "fileChecksum": {
+        "SHA1": "e63a63401b94619791ff57b0cf6bac8c0b9c1448",
+        "MD5": "3e0b93a41e032adf4ca2009ca3f50429"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "(c) Oliver Folkerd"
+    },
+    {
+      "fileName": "cookbook/static/tabulator/tabulator_simple.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item119",
+      "fileChecksum": {
+        "SHA1": "821ad899ccab6b1a646b5a6281a15b0806ea0055",
+        "MD5": "9e5c04600d1bb53d85256d87d3fd3aff"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "(c) Oliver Folkerd"
+    },
+    {
+      "fileName": "cookbook/static/tabulator/tabulator_modern.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item120",
+      "fileChecksum": {
+        "SHA1": "5757b4914262c8c40e3b6830cd2abff4bac5af41",
+        "MD5": "79c079d8bdd4195adb48450de4d8de98"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "(c) Oliver Folkerd"
+    },
+    {
+      "fileName": "cookbook/static/favicon.png",
+      "fileSPDXIdentifier": "SPDXRef-item121",
+      "fileChecksum": {
+        "SHA1": "c76cb35dfd092e5ae8b9d3dd5cd267efb11f6cc2",
+        "MD5": "38e44742c17b0e40e61b519b2369120b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-solid-900.ttf",
+      "fileSPDXIdentifier": "SPDXRef-item123",
+      "fileChecksum": {
+        "SHA1": "40d9789010f6137e543e4d97025b867707d2f425",
+        "MD5": "0bff33a5fd7ec390235476b4859747a0"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "Copyright (c) Font Awesome"
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-regular-400.woff2",
+      "fileSPDXIdentifier": "SPDXRef-item129",
+      "fileChecksum": {
+        "SHA1": "be142af0f56062f6e864de121b98054c7b5954fd",
+        "MD5": "f5f2566b93e89391da4db79462b8078b"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-brands-400.woff",
+      "fileSPDXIdentifier": "SPDXRef-item130",
+      "fileChecksum": {
+        "SHA1": "6900998c1d878e73b2f9ac3a9a9746365d49a54f",
+        "MD5": "c5e0f14f88a828261ba01558ce2bf26f"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-solid-900.woff",
+      "fileSPDXIdentifier": "SPDXRef-item135",
+      "fileChecksum": {
+        "SHA1": "43dae5c2482bfb5d04d896529600eb621181103a",
+        "MD5": "333bae208dc363746961b234ff6c2500"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-regular-400.woff",
+      "fileSPDXIdentifier": "SPDXRef-item136",
+      "fileChecksum": {
+        "SHA1": "7626840dab0e2ae37b2d16572a6f183a71a0dd73",
+        "MD5": "c4f508e7c4f01a9eeba7f08155cde04e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-brands-400.ttf",
+      "fileSPDXIdentifier": "SPDXRef-item137",
+      "fileChecksum": {
+        "SHA1": "c5a1a93f668d15f55deac38b4728f8d901bd4748",
+        "MD5": "06147b6cd88c7346cecd1edd060cd5de"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "Copyright (c) Font Awesome"
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-brands-400.woff2",
+      "fileSPDXIdentifier": "SPDXRef-item138",
+      "fileChecksum": {
+        "SHA1": "5fe986cda635681b4b6bbd6111df2f26d7fca286",
+        "MD5": "cccc9d29470e879e40eb70249d9a2705"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-regular-400.ttf",
+      "fileSPDXIdentifier": "SPDXRef-item139",
+      "fileChecksum": {
+        "SHA1": "5d5375ce3ae5b500df039da009ccdaca29d52fc0",
+        "MD5": "65b286af947c0d982ca01b40e1fcab38"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "Copyright (c) Font Awesome"
+    },
+    {
+      "fileName": "cookbook/static/webfonts/fa-solid-900.woff2",
+      "fileSPDXIdentifier": "SPDXRef-item140",
+      "fileChecksum": {
+        "SHA1": "b2879f9e1d0985a96842bf7f55a2b2cc4c636d04",
+        "MD5": "44d537ab79f921fde5a28b2c1636f397"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/emojionearea/emojionearea.min.css",
+      "fileSPDXIdentifier": "SPDXRef-item142",
+      "fileChecksum": {
+        "SHA1": "a6dc75808d070c3a0c9553d757860eb728eb0a3f",
+        "MD5": "249607c28b7188f543740b97f8b6294c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/emojionearea/emojionearea.css",
+      "fileSPDXIdentifier": "SPDXRef-item144",
+      "fileChecksum": {
+        "SHA1": "7c66f634b382ef143789b63b8b61ea580df213fa",
+        "MD5": "fafb8b8340530faddcea421acef71167"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/custom/js/form_select.js",
+      "fileSPDXIdentifier": "SPDXRef-item150",
+      "fileChecksum": {
+        "SHA1": "a2926a03d5a52dbeea88e43110aa13ea88d95e80",
+        "MD5": "db264ed7401b5422e0430b06a5bfcc5f"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/custom/js/form_emoji.js",
+      "fileSPDXIdentifier": "SPDXRef-item151",
+      "fileChecksum": {
+        "SHA1": "515dc3b1e9f7df30390c3d093b406af1a39ddcb0",
+        "MD5": "d58430cf135a3328fa5b2f118093cbb1"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/custom/js/form_multiselect.js",
+      "fileSPDXIdentifier": "SPDXRef-item152",
+      "fileChecksum": {
+        "SHA1": "930a0dee9859c311965d3e6866eaa66327266ca1",
+        "MD5": "8dc17c88ebd1927decd4f0613b7233be"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/static/favicon.svg",
+      "fileSPDXIdentifier": "SPDXRef-item153",
+      "fileChecksum": {
+        "SHA1": "1de3fcef566fc51fede1ad1ae6e7313ac080ea50",
+        "MD5": "42b8b672c910af66d3c01b89432f1bef"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/locale/de/LC_MESSAGES/django.mo",
+      "fileSPDXIdentifier": "SPDXRef-item163",
+      "fileChecksum": {
+        "SHA1": "7a9c5c9a4ff215be1906c575ce65baad567d1153",
+        "MD5": "cd6a6d17f4edc7c77ed334562c0816d0"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "cookbook/locale/de/LC_MESSAGES/django.po",
+      "fileSPDXIdentifier": "SPDXRef-item164",
+      "fileChecksum": {
+        "SHA1": "34116e8b5cd463667dd047c89516b99154dd2595",
+        "MD5": "09f7baba629afad610c90e05f902924e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "LicenseRef-Same-license-as"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".github/workflows/docker-publish.yml",
+      "fileSPDXIdentifier": "SPDXRef-item167",
+      "fileChecksum": {
+        "SHA1": "d21fbde05ffceb1de211386de6e9d45036f223bf",
+        "MD5": "2f52639627175f7cc6fe5aced8e3faf8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".github/workflows/main.yml",
+      "fileSPDXIdentifier": "SPDXRef-item168",
+      "fileChecksum": {
+        "SHA1": "a4e66727e6177a951bb3c517b88dd9232006133b",
+        "MD5": "f4edb31c9f8e916ca2aa3427f744e960"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".github/workflows/docker-release-publish.yml",
+      "fileSPDXIdentifier": "SPDXRef-item169",
+      "fileChecksum": {
+        "SHA1": "b82fa6f85ea38f6c9c3e6fc2396f8ba84a4c85b3",
+        "MD5": "9568ce13e8374c6c29591b04bdec11b5"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "Dockerfile",
+      "fileSPDXIdentifier": "SPDXRef-item171",
+      "fileChecksum": {
+        "SHA1": "c24c4631fd7b139cb884a9f25b92635cb2f2ef6e",
+        "MD5": "58f0157f18b92fd23d4f387112ce724a"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".env.template",
+      "fileSPDXIdentifier": "SPDXRef-item172",
+      "fileChecksum": {
+        "SHA1": "54c816c916e83672c2c2b925d88c836e0b1cec65",
+        "MD5": "395e20e08b7447f3a65e205d59f04f8f"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "requirements.txt",
+      "fileSPDXIdentifier": "SPDXRef-item173",
+      "fileChecksum": {
+        "SHA1": "bcbb86c327a7598deec6622850c5cddbfc5a196d",
+        "MD5": "ecfd759aff5776143f7da00b45f49b4d"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/codeStyles/codeStyleConfig.xml",
+      "fileSPDXIdentifier": "SPDXRef-item177",
+      "fileChecksum": {
+        "SHA1": "eb61e0b2d1d03323c5dece04bf9fb9e9de029d8a",
+        "MD5": "6953433920da64c5773984e32223f023"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/recipes.iml",
+      "fileSPDXIdentifier": "SPDXRef-item178",
+      "fileChecksum": {
+        "SHA1": "f5114befad824bcdfbdc0602d7df045f3f07c190",
+        "MD5": "29f3cc2fe12d19218ab9bb81840300be"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/vcs.xml",
+      "fileSPDXIdentifier": "SPDXRef-item179",
+      "fileChecksum": {
+        "SHA1": "c92f3eb0ad1c70371e177a4d7d741f90af3f902c",
+        "MD5": "166acef3d301bd241d0d6da15bc5ad3c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/inspectionProfiles/Project_Default.xml",
+      "fileSPDXIdentifier": "SPDXRef-item181",
+      "fileChecksum": {
+        "SHA1": "7d655aef54cc8ad0cb587af30843fe348709faf2",
+        "MD5": "502d76dfa97b811b251ee4f46ee0fd2e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/inspectionProfiles/profiles_settings.xml",
+      "fileSPDXIdentifier": "SPDXRef-item182",
+      "fileChecksum": {
+        "SHA1": "db3fd812b1162b142c304dee3af799de93b7382c",
+        "MD5": "c1076a1469bc3173b586412470aebe78"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/jsLibraryMappings.xml",
+      "fileSPDXIdentifier": "SPDXRef-item183",
+      "fileChecksum": {
+        "SHA1": "1be1fc8bf682670eb12bb3223b04414c3b1aeb37",
+        "MD5": "76bb259f870f7540a127dc2f1888cc0d"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".idea/modules.xml",
+      "fileSPDXIdentifier": "SPDXRef-item184",
+      "fileChecksum": {
+        "SHA1": "caf076b036e87cb9ac691a0225f8b982f86a02ba",
+        "MD5": "3280b94243d88e5927ce8d3786aa5a82"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "setup.sh",
+      "fileSPDXIdentifier": "SPDXRef-item185",
+      "fileChecksum": {
+        "SHA1": "569261322298e0281ada17147efa05960888cda0",
+        "MD5": "882841bc3893154ee88d3633363d11ee"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/nginx-proxy/docker-compose.yml",
+      "fileSPDXIdentifier": "SPDXRef-item189",
+      "fileChecksum": {
+        "SHA1": "aefa331adb44bc8c35a7b6483fddc28b47f2b098",
+        "MD5": "e85b67d364bf347710af1566f26b11b0"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/nginx-proxy/README.md",
+      "fileSPDXIdentifier": "SPDXRef-item190",
+      "fileChecksum": {
+        "SHA1": "86e2e0c763a5c54d8690fa0d37199acf2d846033",
+        "MD5": "853624f6cb6a39dbeeac256394a76154"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/nginx-proxy/nginx/conf.d/Recipes.conf",
+      "fileSPDXIdentifier": "SPDXRef-item193",
+      "fileChecksum": {
+        "SHA1": "f6e3f899f4119ad6e9fb57d29f6eb5d9515752e9",
+        "MD5": "92a9b5757c80a2286102653102f53a4a"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/plain/docker-compose.yml",
+      "fileSPDXIdentifier": "SPDXRef-item195",
+      "fileChecksum": {
+        "SHA1": "c722e82534e67f6c8b7b79d9b0801a2c5e1b481e",
+        "MD5": "1a49a09be109c0f216136312cf9a4695"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/plain/README.md",
+      "fileSPDXIdentifier": "SPDXRef-item196",
+      "fileChecksum": {
+        "SHA1": "4aa115c4e357f2bfa6b8f812fed716396cbd10a0",
+        "MD5": "8234e5f59b79ac10343fb4e26a0abbbf"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/traefik/docker-compose.yml",
+      "fileSPDXIdentifier": "SPDXRef-item198",
+      "fileChecksum": {
+        "SHA1": "034db0a5c0c30c9fab61fdbc6e3ad1d84b5145ea",
+        "MD5": "f3b5d85494ed55101e9fa0c81e6b8311"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/docker/traefik/README.md",
+      "fileSPDXIdentifier": "SPDXRef-item199",
+      "fileChecksum": {
+        "SHA1": "69ab430ea04e979779d1802a40d3a5a12737a791",
+        "MD5": "47f604194987ea655fa40b238dba92d8"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/preview.png",
+      "fileSPDXIdentifier": "SPDXRef-item200",
+      "fileChecksum": {
+        "SHA1": "b9cbd73a1df9142d337064f2cece477445dddbd3",
+        "MD5": "f709bbc6e777a19c07e35f6633326805"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "docs/preview.xcf",
+      "fileSPDXIdentifier": "SPDXRef-item201",
+      "fileChecksum": {
+        "SHA1": "2e33f15d32ece94ecc04310f66fee18350e26397",
+        "MD5": "0d73a63bcfeba3b870f44f4651da4efc"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "LicenseRef-GPL"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".gitignore",
+      "fileSPDXIdentifier": "SPDXRef-item202",
+      "fileChecksum": {
+        "SHA1": "8c761242eab1b83a4a429c5c8f601dc172627e83",
+        "MD5": "40fec215a7dda24bfb0b083bf026f75c"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "recipes/urls.py",
+      "fileSPDXIdentifier": "SPDXRef-item204",
+      "fileChecksum": {
+        "SHA1": "3c5a25558113be494fab298d83cb482adc5306d1",
+        "MD5": "e37797596306cff70daa2fffb45fbb11"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "recipes/__init__.py",
+      "fileSPDXIdentifier": "SPDXRef-item205",
+      "fileChecksum": {
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "recipes/wsgi.py",
+      "fileSPDXIdentifier": "SPDXRef-item206",
+      "fileChecksum": {
+        "SHA1": "b78a035c538a8e65c1f376bd91f5cebdf7fcbb55",
+        "MD5": "a424941e7b86f6833d0936abbea4c2ad"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "recipes/settings.py",
+      "fileSPDXIdentifier": "SPDXRef-item207",
+      "fileChecksum": {
+        "SHA1": "3b9f94da314500d4104ba1d15dc6df3b0c4a7e83",
+        "MD5": "5ffb8c334f2d5fb26af73241c6a93649"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "recipes/locale/de/LC_MESSAGES/django.mo",
+      "fileSPDXIdentifier": "SPDXRef-item211",
+      "fileChecksum": {
+        "SHA1": "c9fcc827bffdeda54a04b833108114440901cb1c",
+        "MD5": "aa7f0929c9ce8e489e88b4eb8ec67525"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": "recipes/locale/de/LC_MESSAGES/django.po",
+      "fileSPDXIdentifier": "SPDXRef-item212",
+      "fileChecksum": {
+        "SHA1": "b40214817c337843cb2554870c2921c362075045",
+        "MD5": "546180304e17b15760f036f70b8d6d58"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "LicenseRef-Same-license-as"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    },
+    {
+      "fileName": ".dockerignore",
+      "fileSPDXIdentifier": "SPDXRef-item213",
+      "fileChecksum": {
+        "SHA1": "a2a63848a02d9bc46cc53fe6d758f0f2461b77c9",
+        "MD5": "771f76f4f1f38a7a2f549edefc6ed269"
+      },
+      "concludedLicense": [],
+      "licenseInformationInFile": [
+        "NOASSERTION"
+      ],
+      "copyrightText": {
+        "rdf:resource": "http://spdx.org/rdf/terms#noassertion"
+      }
+    }
+  ],
+  "otherLicensingInformation": [
+    {
+      "licenseIdentifier": "LicenseRef-Same-license-as",
+      "extractedText": "License by Nomos.",
+      "licenseName": "Same-license-as"
+    },
+    {
+      "licenseIdentifier": "LicenseRef-No_license_found",
+      "extractedText": "Not find any license in the scanned file",
+      "licenseName": "No_license_found"
+    },
+    {
+      "licenseIdentifier": "LicenseRef-GPL",
+      "extractedText": "GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions.",
+      "licenseName": "GNU General Public License"
+    }
+  ]
+}
