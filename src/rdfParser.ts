@@ -195,7 +195,7 @@ export const parseRdfSPDX = (input: any): SPDX => {
           ? file['spdx:File']['spdx:licenseConcluded'][
               'spdx:DisjunctiveLicenseSet'
             ]['spdx:member'].map((e) => {
-              return removeLicenseUri(e['rdf:resource']);
+              return removeNamespace(removeLicenseUri(e['rdf:resource']));
             })
           : [],
         licenseInformationInFile: file['spdx:File'][
