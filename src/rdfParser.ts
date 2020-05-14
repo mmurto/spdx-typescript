@@ -42,15 +42,15 @@ export const parseRdfSPDX = (input: any): SPDX => {
   ].replace('#SPDXRef-DOCUMENT', '');
 
   const removeNamespace = (item: string): string => {
-    return item.replace(`${SPDXDocumentNamespace}#`, '');
+    return decodeURIComponent(item.replace(`${SPDXDocumentNamespace}#`, ''));
   };
 
   const removeLicenseUri = (item: string): string => {
-    return item.replace('http://spdx.org/licenses/', '');
+    return decodeURIComponent(item.replace('http://spdx.org/licenses/', ''));
   };
 
   const removeSPDXTermUri = (item: string): string => {
-    return item.replace('http://spdx.org/rdf/terms#', '');
+    return decodeURIComponent(item.replace('http://spdx.org/rdf/terms#', ''));
   };
 
   const spdxPackage =
