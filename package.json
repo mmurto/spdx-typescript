@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "ts-node": "ts-node"
+    "ts-node": "ts-node",
+    "test:parse": "ts-node src/test.ts"
   },
   "keywords": [
     "spdx"

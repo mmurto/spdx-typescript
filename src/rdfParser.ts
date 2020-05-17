@@ -1,6 +1,6 @@
 import { toJson } from 'xml2json';
 import { IRootObject } from './spdx_types';
-import { SPDX } from './spdx';
+import { SPDX } from './spdx.types';
 import { IRootObject2 } from './spdx_types_2';
 
 const SPDX_LICENSE_URI = 'http://spdx.org/licenses/';

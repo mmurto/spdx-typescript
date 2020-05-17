@@ -1,10 +1,10 @@
-interface Creator {
+export interface Creator {
   person: string;
   organization: string;
   tool: string;
 }
 
-interface DocumentCreationInformation {
+export interface DocumentCreationInformation {
   SPDXVersion: string;
   dataLicense: string;
   SPDXIdentifier: string;
@@ -18,13 +18,13 @@ interface DocumentCreationInformation {
   documentComment?: string;
 }
 
-interface FileChecksum {
+export interface FileChecksum {
   SHA1: string;
   SHA256?: string;
   MD5?: string;
 }
 
-enum FileType {
+export enum FileType {
   SOURCE,
   BINARY,
   ARCHIVE,
@@ -38,12 +38,12 @@ enum FileType {
   OTHER,
 }
 
-interface SnippetRange {
+export interface SnippetRange {
   startPointer: number;
   endPointer: number;
 }
 
-interface SnippetInformation {
+export interface SnippetInformation {
   snippetSPDXIdentifier: string;
   snippetFromFileSPDXIdentifier: string;
   snippetByteRange: SnippetRange;
@@ -56,7 +56,7 @@ interface SnippetInformation {
   snippetName?: string;
 }
 
-interface FileInformation {
+export interface FileInformation {
   fileName: string;
   fileSPDXIdentifier: string;
   fileType?: FileType[];
@@ -70,7 +70,7 @@ interface FileInformation {
   fileContributor?: string;
 }
 
-interface OtherLicensingInformationDetected {
+export interface OtherLicensingInformationDetected {
   licenseIdentifier?: string;
   extractedText?: string;
   licenseName?: string;
@@ -78,13 +78,13 @@ interface OtherLicensingInformationDetected {
   licenseComment?: string;
 }
 
-interface PackageChecksum {
+export interface PackageChecksum {
   SHA1?: string;
   SHA256?: string;
   MD5?: string;
 }
 
-interface PackageInformation {
+export interface PackageInformation {
   packageName: string;
   packageSPDXIdentifier: string;
   packageVersion?: string;

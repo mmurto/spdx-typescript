@@ -1,5 +1,7 @@
 import { parseRdfSPDX, parseSpdx } from './rdfParser';
 import { readFile, writeFile } from 'fs';
+import { Spdx } from './spdx/spdx';
+import { SpdxBuilder } from './spdx/spdxBuilder';
 
 readFile('./examples/spdx.rdf', (err, data) => {
   try {
@@ -20,5 +22,12 @@ readFile('./examples/spdx.rdf', (err, data) => {
     );
   } catch (error) {
     console.log(`parseSPDX: ${error.stack}`);
+  }
+
+  try {
+    const spdxClass = new SpdxBuilder().readSpdxReport(data).build();
+    console.log(spdxClass.getUniqueLicenses());
+  } catch (error) {
+    console.log(`spdxClass: ${error.stack}`);
   }
 });
