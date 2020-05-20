@@ -2,11 +2,11 @@ import { toJson } from 'xml2json';
 import { readFile, writeFile } from 'fs';
 import { json2ts } from 'json-ts';
 
-readFile('./examples/spdx.rdf', (err, data) => {
+readFile('./test_project/SPDX2_test_project_spdx.rdf', (err, data) => {
   const json = toJson(data.toString(), {
     arrayNotation: ['spdx:licenseInfoInFile', 'spdx:creator', 'spdx:member'],
   });
 
-  writeFile('./examples/spdx.json', JSON.stringify(json, null, 2), () => null);
-  writeFile('./examples/spdx_types_2.ts', json2ts(json), () => null);
+  writeFile('./dev/spdx.json', JSON.stringify(json, null, 2), () => null);
+  writeFile('./dev/spdx.types.ts', json2ts(json), () => null);
 });

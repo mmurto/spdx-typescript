@@ -1,0 +1,112 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://679b29ee9838/repo/SPDX2TV_test_project.tar.gz_1589956365.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: spdx2
+Creator: Person: fossy (y)
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+</text>
+Created: 2020-05-20T06:32:45Z
+LicenseListVersion: 2.6
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: test_project.tar.gz
+PackageFileName: test_project.tar.gz
+SPDXID: SPDXRef-upload2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: e54d18616e14d113f5be537ac3a89d3121da6aa1
+PackageChecksum: SHA1: c5b251d8f2376690e57c11af037d245c8d1781ef
+PackageChecksum: SHA256: b829726270f1673d23eefd8053095dee3c7b732539daf05d4e83d13d9872d144
+PackageChecksum: MD5: 2d8a3a307de72ce886a77fc2cdaac50b
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("3.8.0-33-g513964327".513964)
+ - monk ("3.8.0-33-g513964327".513964)
+ - ojo ("3.8.0-33-g513964327".513964) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload2
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: test_project/README.md
+SPDXID: SPDXRef-item10
+FileChecksum: SHA1: b8e902bece30cfc21302df7673b27d728dd8d815
+FileChecksum: SHA256: 5383ca41d92e4d7961173d10cc55fb35d99566c76a2128cc4d847b62e981fbb1
+FileChecksum: MD5: dc6996ca048ea1f1744b622f5cd78e09
+LicenseConcluded: MIT
+LicenseComments: <text>Comment on MIT in README </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: test_project/mit.ts
+SPDXID: SPDXRef-item11
+FileChecksum: SHA1: 7d13b02a73d7bb647dc4be1ebd5d68eadf214c31
+FileChecksum: SHA256: 9e1a1b035cceed3669f89391ec17852fb86125be06e4c1b62e0f0b482d869620
+FileChecksum: MD5: 1e86f44297ff3339ffecf804b2149fd1
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> CopyrightText: 2019 Mikko Murto <mikko.murto@gmail.com> </text>
+ 
+
+##File
+
+FileName: test_project/src/isc.ts
+SPDXID: SPDXRef-item8
+FileChecksum: SHA1: 70348c12254e1ae1edd83e8628b00881242fab66
+FileChecksum: SHA256: c1179a262fab22ede9c2173f99bc184ef0e1c87ae87674ce52fecd6d8def68b0
+FileChecksum: MD5: dc139ae7d4cebc4cd6637e7f2ed84889
+LicenseConcluded: ISC
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: ISC
+FileCopyrightText: <text> CopyrightText: 2019 Mikko Murto <mikko.murto@gmail.com> </text>
+ 
+
+##File
+
+FileName: test_project/src/nothing.ts
+SPDXID: SPDXRef-item9
+FileChecksum: SHA1: c2c35b1fa0e76785b1a746b53d08a19110d9587a
+FileChecksum: SHA256: 1c68488db9268c2f1996410742636f474332c966f58eb078a39bd24385619e87
+FileChecksum: MD5: 1132065380a427196eab1b76ac3466fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+

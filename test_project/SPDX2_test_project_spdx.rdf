@@ -1,0 +1,209 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<spdx:SpdxDocument rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#SPDXRef-DOCUMENT">
+  <spdx:specVersion>SPDX-2.1</spdx:specVersion>
+  <spdx:dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0" />
+  <spdx:creationInfo>
+    <spdx:CreationInfo>
+      <spdx:licenseListVersion>2.6</spdx:licenseListVersion>
+      <spdx:creator>Person: fossy (y)</spdx:creator>
+      <spdx:creator>Organization: </spdx:creator>
+      <spdx:creator>Tool: spdx2</spdx:creator>
+      <spdx:created>2020-05-20T06:31:39Z</spdx:created>
+    </spdx:CreationInfo>
+  </spdx:creationInfo>
+  <spdx:name>/srv/fossology/repository/report</spdx:name>
+  <rdfs:comment>
+    This document was created using license information and a generator from Fossology.
+  </rdfs:comment>
+    <spdx:hasExtractedLicensingInfo>
+    <spdx:ExtractedLicensingInfo rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#LicenseRef-No_license_found">
+      <spdx:licenseId>LicenseRef-No_license_found</spdx:licenseId>
+      <spdx:name>No_license_found</spdx:name>
+      <spdx:extractedText><![CDATA[
+Not find any license in the scanned file
+      ]]></spdx:extractedText>
+    </spdx:ExtractedLicensingInfo>
+  </spdx:hasExtractedLicensingInfo>
+  <spdx:relationship>
+    <spdx:Relationship>
+      <spdx:relationshipType rdf:resource="http://spdx.org/rdf/terms#relationshipType_describes" />
+      <spdx:relatedSpdxElement>
+        <spdx:Package rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#SPDXRef-upload2">
+          <spdx:name>test_project.tar.gz</spdx:name>
+          <spdx:packageFileName>test_project.tar.gz</spdx:packageFileName>
+          <spdx:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:packageVerificationCode>
+            <spdx:PackageVerificationCode>
+            <spdx:packageVerificationCodeValue>e54d18616e14d113f5be537ac3a89d3121da6aa1</spdx:packageVerificationCodeValue>
+            </spdx:PackageVerificationCode>
+          </spdx:packageVerificationCode>
+          <spdx:checksum>
+            <spdx:Checksum>
+              <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+              <spdx:checksumValue>c5b251d8f2376690e57c11af037d245c8d1781ef</spdx:checksumValue>
+            </spdx:Checksum>
+          </spdx:checksum>
+          <spdx:checksum> 
+            <spdx:Checksum>
+              <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256" />
+              <spdx:checksumValue>b829726270f1673d23eefd8053095dee3c7b732539daf05d4e83d13d9872d144</spdx:checksumValue>
+            </spdx:Checksum>
+          </spdx:checksum>
+          <spdx:checksum> 
+            <spdx:Checksum>
+              <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+              <spdx:checksumValue>2d8a3a307de72ce886a77fc2cdaac50b</spdx:checksumValue>
+            </spdx:Checksum>
+          </spdx:checksum>
+          <spdx:licenseConcluded>
+            <spdx:DisjunctiveLicenseSet>
+              </spdx:DisjunctiveLicenseSet>
+          </spdx:licenseConcluded>
+          <spdx:licenseComments><![CDATA[
+            licenseInfoInFile determined by Scanners:
+   - nomos ("3.8.0-33-g513964327".513964)
+   - monk ("3.8.0-33-g513964327".513964)
+   - ojo ("3.8.0-33-g513964327".513964)
+          ]]></spdx:licenseComments>
+          <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:licenseInfoFromFiles rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+          
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#SPDXRef-item10">
+                <spdx:fileName>test_project/README.md</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>b8e902bece30cfc21302df7673b27d728dd8d815</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256" />
+                    <spdx:checksumValue>5383ca41d92e4d7961173d10cc55fb35d99566c76a2128cc4d847b62e981fbb1</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>dc6996ca048ea1f1744b622f5cd78e09</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="http://spdx.org/licenses/MIT" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseComments><![CDATA[Comment on MIT in README]]></spdx:licenseComments>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#SPDXRef-item11">
+                <spdx:fileName>test_project/mit.ts</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>7d13b02a73d7bb647dc4be1ebd5d68eadf214c31</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256" />
+                    <spdx:checksumValue>9e1a1b035cceed3669f89391ec17852fb86125be06e4c1b62e0f0b482d869620</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>1e86f44297ff3339ffecf804b2149fd1</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="http://spdx.org/licenses/MIT" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseComments><![CDATA[NOASSERTION]]></spdx:licenseComments>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/MIT" />
+                <spdx:copyrightText><![CDATA[
+                  CopyrightText: 2019 Mikko Murto <mikko.murto@gmail.com>
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#SPDXRef-item8">
+                <spdx:fileName>test_project/src/isc.ts</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>70348c12254e1ae1edd83e8628b00881242fab66</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256" />
+                    <spdx:checksumValue>c1179a262fab22ede9c2173f99bc184ef0e1c87ae87674ce52fecd6d8def68b0</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>dc139ae7d4cebc4cd6637e7f2ed84889</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded>
+                  <spdx:DisjunctiveLicenseSet>
+                    <spdx:member rdf:resource="http://spdx.org/licenses/ISC" />
+                  </spdx:DisjunctiveLicenseSet>
+                </spdx:licenseConcluded>
+                <spdx:licenseComments><![CDATA[NOASSERTION]]></spdx:licenseComments>
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/ISC" />
+                <spdx:copyrightText><![CDATA[
+                  CopyrightText: 2019 Mikko Murto <mikko.murto@gmail.com>
+                ]]></spdx:copyrightText>
+              </spdx:File>
+            </spdx:hasFile>
+            
+            <spdx:hasFile>
+              <spdx:File rdf:about="http://679b29ee9838/repo/SPDX2_test_project.tar.gz_1589956299-spdx.rdf#SPDXRef-item9">
+                <spdx:fileName>test_project/src/nothing.ts</spdx:fileName>
+                <spdx:checksum>
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1" />
+                    <spdx:checksumValue>c2c35b1fa0e76785b1a746b53d08a19110d9587a</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256" />
+                    <spdx:checksumValue>1c68488db9268c2f1996410742636f474332c966f58eb078a39bd24385619e87</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:checksum> 
+                  <spdx:Checksum>
+                    <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5" />
+                    <spdx:checksumValue>1132065380a427196eab1b76ac3466fb</spdx:checksumValue>
+                  </spdx:Checksum>
+                </spdx:checksum>
+                <spdx:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseComments rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+                <spdx:licenseInfoInFile rdf:resource="http://spdx.org/licenses/NOASSERTION" />
+                <spdx:copyrightText rdf:resource="http://spdx.org/rdf/terms#noassertion" />
+              </spdx:File>
+            </spdx:hasFile>
+            
+        </spdx:Package>
+      </spdx:relatedSpdxElement>
+    </spdx:Relationship>
+  </spdx:relationship>
+  
+</spdx:SpdxDocument>
+</rdf:RDF>

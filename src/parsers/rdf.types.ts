@@ -1,4 +1,4 @@
-export interface IRootObject2 {
+export interface SpdxRdf {
   'rdf:RDF': {
     'xmlns:rdf': string;
     'xmlns:spdx': string;

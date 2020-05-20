@@ -5,7 +5,7 @@ import {
   SnippetInformation,
   OtherLicensingInformationDetected,
   SPDX,
-} from '../spdx.types';
+} from './spdx.types';
 import { SpdxBuilder } from './spdxBuilder';
 
 export class Spdx {

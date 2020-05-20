@@ -4,8 +4,8 @@ import {
   FileInformation,
   SnippetInformation,
   OtherLicensingInformationDetected,
-} from '../spdx.types';
-import { parseRdfSPDX } from '../rdfParser';
+} from './spdx.types';
+import { parseRdfSPDX } from '../parsers/rdfParser';
 import { Spdx } from './spdx';
 
 export class SpdxBuilder {

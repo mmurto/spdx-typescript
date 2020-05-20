@@ -1,27 +1,16 @@
-import { parseRdfSPDX, parseSpdx } from './rdfParser';
+import { parseRdfSPDX } from './parsers/rdfParser';
 import { readFile, writeFile } from 'fs';
-import { Spdx } from './spdx/spdx';
 import { SpdxBuilder } from './spdx/spdxBuilder';
 
-readFile('./examples/spdx.rdf', (err, data) => {
+readFile('./files/spdx.rdf', (err, data) => {
   try {
     writeFile(
-      './examples/test1.json',
+      './files/test1.json',
       JSON.stringify(parseRdfSPDX(data), null, 2),
       () => null
     );
   } catch (error) {
     console.log(`parseRdfSPDX: ${error.stack}`);
-  }
-
-  try {
-    writeFile(
-      './examples/test2.json',
-      JSON.stringify(parseSpdx(data), null, 2),
-      () => null
-    );
-  } catch (error) {
-    console.log(`parseSPDX: ${error.stack}`);
   }
 
   try {
