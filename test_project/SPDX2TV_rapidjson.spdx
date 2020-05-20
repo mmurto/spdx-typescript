@@ -1,0 +1,3781 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://679b29ee9838/repo/SPDX2TV_rapidjson_1589967141.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: spdx2
+Creator: Person: fossy (y)
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+</text>
+Created: 2020-05-20T09:32:22Z
+LicenseListVersion: 2.6
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: rapidjson
+PackageFileName: rapidjson
+SPDXID: SPDXRef-upload3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3dec3f199716e1ce913bd6d33d409ab49b088b90
+PackageChecksum: SHA1: a7e8f249860aa7639c09c1bf31ce5552fbbde78d
+PackageChecksum: SHA256: 484d260f71fe00c31f0d8da9a6131d934bd4c8eef40d35f345f6be08c62f56c7
+PackageChecksum: MD5: 53c4ad957761867e4b76957861b6cd2e
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("3.8.0-33-g513964327".513964)
+ - monk ("3.8.0-33-g513964327".513964)
+ - ojo ("3.8.0-33-g513964327".513964) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload3
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: bin/jsonschema/LICENSE
+SPDXID: SPDXRef-item228
+FileChecksum: SHA1: 6808b97edf6d2c189571af702b95916168ff7db8
+FileChecksum: SHA256: 837402bd25fad9b704265801ca3f92566a98157c1f9a7acd6f446299ba1c305a
+FileChecksum: MD5: 9d4de43111d33570c8fe49b4cb0e01af
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (c) 2012 Julian Berman </text>
+ 
+
+##File
+
+FileName: package.json
+SPDXID: SPDXRef-item151
+FileChecksum: SHA1: 36bf13bb407c9b3534b23b20237615ee31bd7df2
+FileChecksum: SHA256: 3cd5bf0b2b7ab49b53588eb769f3ff1b9ef63bce70729710e91c411a8ee4bb8a
+FileChecksum: MD5: 06cef52e1dc9349e31877092bda7889a
+LicenseConcluded: ISC
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: ISC
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: license.txt
+SPDXID: SPDXRef-item311
+FileChecksum: SHA1: 47ab05791f28173ad2b82f25c2b5c7fc06252b4d
+FileChecksum: SHA256: a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32
+FileChecksum: MD5: ba04aa8f65de1396a7e59d1d746c2125
+LicenseConcluded: BSD-3-Clause AND JSON AND MIT
+LicenseComments: <text>A comment on BSD-3-Clause AND A comment on JSON AND NOASSERTION </text>
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: JSON
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (c) 2006-2013 Alexander Chemeris All rights reserved.
+Copyright (c) 2002 JSON.org All Rights Reserved.
+Copyright (c) 2002 JSON.org All Rights Reserved.
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/schema.h
+SPDXID: SPDXRef-item20
+FileChecksum: SHA1: dd1a00052425dcec18e978dd06ab6be1a2088ea6
+FileChecksum: SHA256: 7eadecfd646cbfe2c67b02aeaac79cc52236d6f934f1956466e998407ffa50b9
+FileChecksum: MD5: 9871c1c07a00faa875eed30d6ab149d8
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip-> All rights reserved-> </text>
+ 
+
+##File
+
+FileName: include/rapidjson/msinttypes/stdint.h
+SPDXID: SPDXRef-item55
+FileChecksum: SHA1: 37d726564bf64842d814666d7c8da4f31d315ff0
+FileChecksum: SHA256: bf2d1bc4885bc1e0720ec9af8f399477c7e105ae1e70e2863c31a8123cae1c17
+FileChecksum: MD5: 6e619664c829473ada26d63aea8bca83
+LicenseConcluded: BSD-3-Clause
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2006-2013 Alexander Chemeris
+Copyright (C) 2015 THL A29 Limited. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/msinttypes/inttypes.h
+SPDXID: SPDXRef-item56
+FileChecksum: SHA1: a548e95689634296d9572a66915beb5c68f17fa3
+FileChecksum: SHA256: 78ee41fd99bcbe59ca93f6a870a83c0a90f4b179af571f6e684f2600491bbae7
+FileChecksum: MD5: 28b716fa388af4d2ed70cca92fad3e09
+LicenseConcluded: BSD-3-Clause
+LicenseComments: <text>A comment on BSD </text>
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text> Copyright (c) 2006-2013 Alexander Chemeris
+Copyright (C) 2015 THL A29 Limited. </text>
+ 
+
+##File
+
+FileName: contrib/natvis/LICENSE
+SPDXID: SPDXRef-item306
+FileChecksum: SHA1: 0c6ec50f76889bd113eacefe86f15b3dfcfb8e59
+FileChecksum: SHA256: 394faaedb93c1da8ecbd61322518834908fee64381117e01a611bf9fac20baa6
+FileChecksum: MD5: ec259ab094c66e4776e1da8b023540e0
+LicenseConcluded: MIT
+LicenseComments: <text>A comment on MIT (main license) </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (c) 2017 Bart Muzzin
+Copyright (c) 2015 mojmir svoboda </text>
+ 
+
+##File
+
+FileName: readme.md
+SPDXID: SPDXRef-item152
+FileChecksum: SHA1: 1c38e81436d903cb835b6cfae85fd66dc39580b6
+FileChecksum: SHA256: d324871ce915f3f3fdcb5a0119fe2f768218dd290b9e70580de3ff6384972472
+FileChecksum: MD5: 679421b1669e4934abc2500ff792d50b
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved.
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/prettywritertest.cpp
+SPDXID: SPDXRef-item98
+FileChecksum: SHA1: d4290012d45050fde04bce1999a7ea43dbaa958e
+FileChecksum: SHA256: 8b7432e85944acc88e5c1fd71a37cce098c17f905bf2feb7a2dd4e92ed1ea090
+FileChecksum: MD5: fa1c8518a32791f3ce395fcdb6edd68b
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/encodedstreamtest.cpp
+SPDXID: SPDXRef-item97
+FileChecksum: SHA1: fc6acb64acdd695244f69b79137ebfde7be4f73a
+FileChecksum: SHA256: 259f5fe6ecbb470c59e3f3f4db76336654aaae3b192a7ab6845d7d60494d8ec7
+FileChecksum: MD5: 2cbabfc224d42b02c0b9960f36b02e6c
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/cursorstreamwrappertest.cpp
+SPDXID: SPDXRef-item96
+FileChecksum: SHA1: ad9a864fd4c373e2eeb13550ae44d1e64c3f333a
+FileChecksum: SHA256: 5914f6a00c396853f56311a635ca542d3e56727b83b6dd0de5cf65006b18e7bd
+FileChecksum: MD5: aedbeaea3b548a9b35a9ab4d36717c18
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/ostreamwrappertest.cpp
+SPDXID: SPDXRef-item95
+FileChecksum: SHA1: dc8572e503fe47790f31a9af767648aa9354d4f5
+FileChecksum: SHA256: bb922291b72ae07da2bfe7df2509540f956c70222d654e859a6ffc33380cb725
+FileChecksum: MD5: ed3a14c422765a5417ce4a608125ae56
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/jsoncheckertest.cpp
+SPDXID: SPDXRef-item94
+FileChecksum: SHA1: 158a587ae19806e880409aa2e9f1a86b51e005b6
+FileChecksum: SHA256: 0b353b89ce5e01cc8af17a34af3e3088360b98dbd9ed97d8b7ab68464d04cacf
+FileChecksum: MD5: 02830d18be275f038ec65fa0246a45b3
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/readertest.cpp
+SPDXID: SPDXRef-item93
+FileChecksum: SHA1: 439d9d6954904105a9ab6d99e005d93817d69031
+FileChecksum: SHA256: 9b04cb15d573a92bd9e21690a70acca62eaf729c21c9d9956688fe3cf7b3a079
+FileChecksum: MD5: 1df3668a9a54e7f5f40b563b0ac6be64
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/unittest.h
+SPDXID: SPDXRef-item92
+FileChecksum: SHA1: 1d175871a24c1b297a51d75f1f4a67bf17c1bcf4
+FileChecksum: SHA256: cec1eecf53bf685557eb568feaee1130d93c77b4db4394cc15fdf043f5f5ea0a
+FileChecksum: MD5: 23a34b65a49fb052c36f06ab26c7901e
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/documenttest.cpp
+SPDXID: SPDXRef-item91
+FileChecksum: SHA1: 7f63867ba0b57d9c60a2343bd491bf8f3d3cf865
+FileChecksum: SHA256: 74b3ef73985ad9be575a32d2648b2f79df1c1d9455fcbfc13f1c1e0a1ecb0f29
+FileChecksum: MD5: 9cd10e8cb67602699a8b8d9cfaf88209
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/filestreamtest.cpp
+SPDXID: SPDXRef-item90
+FileChecksum: SHA1: 82bed533b40dc8c9098204f97cde2e2408b4f270
+FileChecksum: SHA256: 6c1e37dc363dfffd339597b26ce5d096ae66cb027873b641ac1d1ef882e5f162
+FileChecksum: MD5: 35b388cb60b8e762355ff135b15efa2a
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/regextest.cpp
+SPDXID: SPDXRef-item89
+FileChecksum: SHA1: cb270dbc908e9b6fe133071ffef2a244ccc1b2ab
+FileChecksum: SHA256: 214baad17f9ccafe9501e50447e2520989ece7179166158e74e7edcb8fa7879a
+FileChecksum: MD5: b89519c1b3e6943a50c51acd97e01f98
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/valuetest.cpp
+SPDXID: SPDXRef-item88
+FileChecksum: SHA1: 37e8d0df0903af99f226f1ae4556cde8186ab2c3
+FileChecksum: SHA256: e6748605dd070cc5ce78191258830bddb76d1fed5a08562f94e094f8337166d3
+FileChecksum: MD5: 94e4b8bf5b86a170c0b64219c3c35d54
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/fwdtest.cpp
+SPDXID: SPDXRef-item87
+FileChecksum: SHA1: 2b36179fddb0371cff9313c557ed9dc510e6fd79
+FileChecksum: SHA256: d4ce9525a5c22fa9a29e6152b78675aeb2297d64adbe40b77b7e3df66a53ce90
+FileChecksum: MD5: a28fdb718d3ae3ed0099086b308e3a11
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/stringbuffertest.cpp
+SPDXID: SPDXRef-item86
+FileChecksum: SHA1: 9d17172897818fec9e7708428cf66237e73ee595
+FileChecksum: SHA256: 153354a69d95187758edf1d68648ac08c215ca8ec770ac5ed9fb87b10d2f9c49
+FileChecksum: MD5: 47cac37fab870c03e5ae34de6da1fce3
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/dtoatest.cpp
+SPDXID: SPDXRef-item85
+FileChecksum: SHA1: 246ad2df4ecf76ae354fd8e937fdfe1fb4fb66c3
+FileChecksum: SHA256: dfa5cdeb16ddffca51f7295c3d5030230168c8a3d2faacab6878b904228f7eb5
+FileChecksum: MD5: 5713012eb2c03a5224e306b17f675b89
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/pointertest.cpp
+SPDXID: SPDXRef-item83
+FileChecksum: SHA1: 8364b86fb48ff875230479053e666841dc40ac0c
+FileChecksum: SHA256: 8ac6c19f46e1563b913fc0e7e1f17c68ec2cce4b83c1bcf982529ab3d8aeb086
+FileChecksum: MD5: c4f7e842f1e0c74ac32c86b3087e2bea
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/schematest.cpp
+SPDXID: SPDXRef-item82
+FileChecksum: SHA1: cf285c8282af379cf3f136816c5312e8394a41a8
+FileChecksum: SHA256: b7577195d91f88d9dac65e63a311c6991aab16c35020908bf5978aca822b7b1c
+FileChecksum: MD5: 0227448db078b6fa32bf146f9fd6877a
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/namespacetest.cpp
+SPDXID: SPDXRef-item81
+FileChecksum: SHA1: 836d40bd7a6c68c23bab506254ae4069cdcc80f2
+FileChecksum: SHA256: 8c3a05334906b8a25e954cac2f8a1cd61e66598652d8aff2141d3d9aa64159fe
+FileChecksum: MD5: e8baff4d2b35ad8a832fcce8ab9c4507
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/bigintegertest.cpp
+SPDXID: SPDXRef-item80
+FileChecksum: SHA1: 50b834c30ff7ed045d88a079bf4452e3c7fb645b
+FileChecksum: SHA256: 9a9127e9fe456f8a6768a9e3952649bbe7b11fab4ac36d363bfb9ecd6700a374
+FileChecksum: MD5: 267af13a730a4c1572caac7c7a2d57ac
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/itoatest.cpp
+SPDXID: SPDXRef-item79
+FileChecksum: SHA1: 446e72ac8efed3385084571d6ac110b3b1bcd1ae
+FileChecksum: SHA256: 5a2c990f428940ff7542279855bb66107b3e0a91b063316487a0a788d8aa5e25
+FileChecksum: MD5: 342459ab555dac7cc9de885b4232ef18
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/unittest.cpp
+SPDXID: SPDXRef-item78
+FileChecksum: SHA1: b1b80569193ff84243639b4ac80429e5ae3292ac
+FileChecksum: SHA256: cec9e5df8f89efd7cc13f528fd79b885d2e6c6975adb881089b006bb675d14a3
+FileChecksum: MD5: 7800a010ce019293417b894a9ecbc87a
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/strfunctest.cpp
+SPDXID: SPDXRef-item77
+FileChecksum: SHA1: 6f0ee04e213196513a704ee7f7da5d0b31e7c195
+FileChecksum: SHA256: cc6db7163ea7ad0be505c47f60c1f5954d47d70922c6d1306d0a38c6b71d016a
+FileChecksum: MD5: 50b0e9f46c59e8c0170400bddbedc99c
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/writertest.cpp
+SPDXID: SPDXRef-item76
+FileChecksum: SHA1: 6ab232d808b453a71f60db5163989666f0c90a34
+FileChecksum: SHA256: 7ecbdb89144c87e5d8089ab514f6797fd6779ae78e3e8752347ac10e8a1259cb
+FileChecksum: MD5: 65c0981110acc379fa95cb2d048e9308
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/allocatorstest.cpp
+SPDXID: SPDXRef-item75
+FileChecksum: SHA1: f318888ff8c24405f6c0e1d5fe4c7e0834c5fb14
+FileChecksum: SHA256: 24d493f79d0c1c79dc80bfb0bdc9f61504bd01d19ed0849970f084b5302f13e8
+FileChecksum: MD5: 3b96d788d4b132ac588915f1cb6dadb4
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/encodingstest.cpp
+SPDXID: SPDXRef-item73
+FileChecksum: SHA1: 7f158d6972ee7195e90e40ea262a7595145c0b31
+FileChecksum: SHA256: 01ae84fd156be2d1f8e9f45fbffeec11aef42359e5f956964a21475dece81ff7
+FileChecksum: MD5: bb9cf1866600ddc9699928e93076ea4c
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (c) 2008-2010 Bjoern Hoehrmann <bjoern@hoehrmann.de> See http://bjoern.hoehrmann.de/utf-8/decoder/dfa/ for details.
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/istreamwrappertest.cpp
+SPDXID: SPDXRef-item74
+FileChecksum: SHA1: 0651286b140f0893a4cbf94d5795120ce520d6e9
+FileChecksum: SHA256: 57deb6c730afa4db57e0a8f6aa465b80360bb6fc185ef421225679ac4f5e0e09
+FileChecksum: MD5: 52f95f6982e2fe76eaae8db8c719668a
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/simdtest.cpp
+SPDXID: SPDXRef-item72
+FileChecksum: SHA1: 2d106037bcfaa25b22ef4b78081c6e7ad646c18e
+FileChecksum: SHA256: 1ccfc54a4682e4285d0c6a9398a018f33efd65788079b51deb3bacd474ef6043
+FileChecksum: MD5: 87b9ce3cd2a3c4163bbfd6b7b1fed17b
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/unittest/strtodtest.cpp
+SPDXID: SPDXRef-item71
+FileChecksum: SHA1: 81fbf5d54fd817038ee33a68c484bd9ebe42b31f
+FileChecksum: SHA256: 512934148c60f19980f181ef6c96cf7abb3906d31be4cc2d0a65b0efae360c2e
+FileChecksum: MD5: a33fe67f150e7de4572758d40ff1b66e
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/perftest/perftest.cpp
+SPDXID: SPDXRef-item68
+FileChecksum: SHA1: d7f5a7d2c52cfbead22d4fddc321ef73b7483948
+FileChecksum: SHA256: 811db21433e4642adf687cbe2e6afb954874128b8d6e255c79c5303382458ac5
+FileChecksum: MD5: 066f5c4f60c8cd0ce8ffd99caf50cb3d
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/perftest/perftest.h
+SPDXID: SPDXRef-item67
+FileChecksum: SHA1: 288329aa8d1df784c94f1bbf279f758dee9c1c18
+FileChecksum: SHA256: 4d0a4cf085a08a9abb985d428c3264e83475f97051ed0450d41da7c22780a0c3
+FileChecksum: MD5: cac76a1afe169378dbb99eb5938de29b
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/perftest/platformtest.cpp
+SPDXID: SPDXRef-item64
+FileChecksum: SHA1: df62b72702e6011476012ec2c419fd15706e4216
+FileChecksum: SHA256: e52a6461a43f3ab06529f49cdfb77006be26ecfba40b31c389a557c06ca77a68
+FileChecksum: MD5: 05bffb303de90d19d1ebf4a2846e530e
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/perftest/rapidjsontest.cpp
+SPDXID: SPDXRef-item63
+FileChecksum: SHA1: 0291b7ddd6161047b4aac5134d28129e48876334
+FileChecksum: SHA256: 988cb9093e906ab9dc852359ce0afd7b134e5accdaae5e61d1c08bf3656f88f5
+FileChecksum: MD5: f2f539e85615a69305eaa7f29376a49e
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: test/perftest/misctest.cpp
+SPDXID: SPDXRef-item62
+FileChecksum: SHA1: c78f7b7dfa28dab2a6409ea58884f1c857d7a024
+FileChecksum: SHA256: b685edeccf7ab0f33eba4b04d7edba22a5f033962d8bcad3063fa5d99ff4bfdf
+FileChecksum: MD5: 7f6c3acce33fe6ae659e89d13a1db9c1
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (c) 2008-2010 Bjoern Hoehrmann <bjoern@hoehrmann.de> See http://bjoern.hoehrmann.de/utf-8/decoder/dfa/ for details.
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/memorybuffer.h
+SPDXID: SPDXRef-item59
+FileChecksum: SHA1: 03677f78fd4e6e3a2ec2bad610f4a50643ada638
+FileChecksum: SHA256: cbfb33d4b2b826012c9932a664044cd70606ebd938ba9e35748892de2569e03f
+FileChecksum: MD5: 11dd26ff4c1ceecbca2d00f64fc188b0
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/filewritestream.h
+SPDXID: SPDXRef-item58
+FileChecksum: SHA1: dd64f15100d2eec7672dd2ffb3b8298dd2dcf1eb
+FileChecksum: SHA256: c306b379af7957a0d21bfa8f798f48e67cd78ec96fcddd79d008f1ef699dc34a
+FileChecksum: MD5: a0d6155a06fd6fe38079732ccc785356
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/ostreamwrapper.h
+SPDXID: SPDXRef-item57
+FileChecksum: SHA1: 6d474a37ad51068a37e05db21313c01a744923f4
+FileChecksum: SHA256: 8ab62eb2967a965b4b39bd03ae49c220e7a6cd6c5c680f39cb32ef652b2c3337
+FileChecksum: MD5: 2577b34aedcb9f49f22114db78531cb9
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/document.h
+SPDXID: SPDXRef-item50
+FileChecksum: SHA1: 073296c59483ea2b2e341eef141f9f8698a73951
+FileChecksum: SHA256: 43b4d4e3e631548d5ad36a570ea5d86159345d6818d16630476d4a34e15b7311
+FileChecksum: MD5: 89610aee75fed7a3f4825c8eafdd8a92
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/error/error.h
+SPDXID: SPDXRef-item53
+FileChecksum: SHA1: d5c6262957a1750e88c7b56168853ccb548faf49
+FileChecksum: SHA256: 85bc3e758f3463971eb85e0c4639bc22168863227dd6fc38940fc34e533bf472
+FileChecksum: MD5: a105e6e19cf76b288864a3da8ae8239e
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/error/en.h
+SPDXID: SPDXRef-item52
+FileChecksum: SHA1: a7fa239cd28c0a8dd939afc9b0967bee2cc9a153
+FileChecksum: SHA256: 5d040327a5b7b50367f5862fe88e9d742bcefcff52450279bfebb89a30072d2d
+FileChecksum: MD5: 501e7c8588ed33bfb24c479069e1d87b
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/pointer.h
+SPDXID: SPDXRef-item49
+FileChecksum: SHA1: 8a3254e147665a92ec9d24c34bed7376694047df
+FileChecksum: SHA256: 4d87da3fc2c53cc679e4078f02185feecca13c39657d3f34b5ff885e39743828
+FileChecksum: MD5: 4be4bf2579fdc132004b6fe41d969816
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/rapidjson.h
+SPDXID: SPDXRef-item48
+FileChecksum: SHA1: 7f3ce4815f1a340fdc8b7ed6e046eac02c901c73
+FileChecksum: SHA256: eff07d2935da1f68b0e7e68808dddc28b47bc65fcff73459076273e74da0e28f
+FileChecksum: MD5: 3d4b4ad28b3a873488aa729f41505e1c
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/stream.h
+SPDXID: SPDXRef-item47
+FileChecksum: SHA1: 0a0105b2b0160bbcf2ce3265c8ef362193523722
+FileChecksum: SHA256: c6cead9dffa8e5972a9e6c9a52cee754411b9eda674cbab5c86a2c78146254e1
+FileChecksum: MD5: 225f071c1a511a6ca35873236668c259
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/memorystream.h
+SPDXID: SPDXRef-item46
+FileChecksum: SHA1: 1c1883ae1f8409d28c85e0f80c965744db7f2ee8
+FileChecksum: SHA256: 5381dd5981676dc6194cb384af6bcf623d9dee46b9b1508bd1e62c7cf3efac9f
+FileChecksum: MD5: 7128019abd5b14ea804846a84447843f
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/stack.h
+SPDXID: SPDXRef-item45
+FileChecksum: SHA1: 3a78a52c8adddace66f4b57227a143b98d042bc6
+FileChecksum: SHA256: 2ab58804815bf418898da95e4466173876038528024ae6474aca4df7739e0954
+FileChecksum: MD5: e6d07515e617970900b10e1dd57ec67d
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/strtod.h
+SPDXID: SPDXRef-item44
+FileChecksum: SHA1: 54c91a42980d56ce6ea3e5d9f326fde9b423c290
+FileChecksum: SHA256: 973a6a567707b5d706422d432681eb6d55b33fb6a58f081ea35f1f0f0610232a
+FileChecksum: MD5: 7b1ecf29817f52a3687b13c75f97742f
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/strfunc.h
+SPDXID: SPDXRef-item43
+FileChecksum: SHA1: 33baade555e049e31d59d5e10f0c5f2f210bf3ad
+FileChecksum: SHA256: 07f1a7fbf266154f9638bc75876391e1d020bd5c891d639901150f3c53127ec2
+FileChecksum: MD5: 81689f346f1e8f7b497b1c70c1bc6602
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/meta.h
+SPDXID: SPDXRef-item42
+FileChecksum: SHA1: 14d6522a0103b3ccf6fad7f05652efc6cc007d71
+FileChecksum: SHA256: 52eb6de01e95e9c9e88bd70e050c985d7b37e7ac62a2320a4a06df665ecd4b9a
+FileChecksum: MD5: 5fce1dc988964949b237d8ee48e2062d
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/dtoa.h
+SPDXID: SPDXRef-item40
+FileChecksum: SHA1: e0093eb5b974f7c968d9a30ec9d8e1845e720c43
+FileChecksum: SHA256: 77f2a85c791347e2df5823486651b7c64182b076522a0241bbb443646270d2d8
+FileChecksum: MD5: 4130ee048d55be87e1dd4900c642f34e
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/ieee754.h
+SPDXID: SPDXRef-item41
+FileChecksum: SHA1: 14206def0a832147f1fe9a5be7f8f4c7b76e8053
+FileChecksum: SHA256: 7e4456bf81b86de2e4639cbf1a80d76f852978511e506c20d0acd79ecd31f7e1
+FileChecksum: MD5: 967468c587886fce2f02b51825e04b8d
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/pow10.h
+SPDXID: SPDXRef-item39
+FileChecksum: SHA1: 0a0f58823ace85a878ce7134b0347ba916fe6c39
+FileChecksum: SHA256: 6b8787ecc984887cc2579d7043c08ac57614b8c59e09073565538890dcd1ff21
+FileChecksum: MD5: 758616be6b48246694374575629c6353
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/diyfp.h
+SPDXID: SPDXRef-item38
+FileChecksum: SHA1: ae3dda9475905e287bd5350f2c45d5dc9346dddf
+FileChecksum: SHA256: 04039d6b02e2654890e8431ed0ef5ee95b4ec18f56ca6763bd1c0441f5b9f417
+FileChecksum: MD5: 263908db82556eff673aedfeb2206628
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/itoa.h
+SPDXID: SPDXRef-item37
+FileChecksum: SHA1: 3e58e649791525e3798b967281f49cdc37609287
+FileChecksum: SHA256: ab0b5d49d2671156463ba03c1cbbe32bd186d3220caec3ad2a9654ccc9955f12
+FileChecksum: MD5: 9d3bf74414bc87a4f956d4910c911bbe
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/regex.h
+SPDXID: SPDXRef-item36
+FileChecksum: SHA1: 16ccc015a143573d9fbecfbe2de8cc7dd24262ee
+FileChecksum: SHA256: 7a5216bf93f7d7f0d77563e2a4e89948dd6ef138bb4e04b31cbbd3cf98d6b6c3
+FileChecksum: MD5: 229984b3cc497b297ba5c62033f86198
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/clzll.h
+SPDXID: SPDXRef-item35
+FileChecksum: SHA1: 7656debfdb4d97449f47337a04de8b3f2ee25482
+FileChecksum: SHA256: d93cb0dc65676f2a6cffb51b9f42d2c39f459a4ad80b090962bbce9d59c0e56e
+FileChecksum: MD5: 86c7dbb4d09c0a2dafd12f221b520507
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/biginteger.h
+SPDXID: SPDXRef-item34
+FileChecksum: SHA1: f1b58fe5734e77e7de01e2436e99c9a20a0511e4
+FileChecksum: SHA256: aefbc985921663beb157853a8d9105777fc64b84149497af12ded139a9ccfb9b
+FileChecksum: MD5: 177f2a462fc9955eba365d46d5525844
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/internal/swap.h
+SPDXID: SPDXRef-item33
+FileChecksum: SHA1: 22111c586ffcba0485a0a56c5e911493ac769031
+FileChecksum: SHA256: 1403bd099a25621c63a1234ca61daae0444f1538c4be7b193694cf41a76f14ac
+FileChecksum: MD5: d31947cff85adf536ef86d37ad4d4bc9
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/fwd.h
+SPDXID: SPDXRef-item31
+FileChecksum: SHA1: 4d7c7541b5c7dbee492d483a38e5048224d329e4
+FileChecksum: SHA256: 18d4c978bb3ccff8ef0853e3b29f407d68e5ea22fe0d101f8332cf6f61544b34
+FileChecksum: MD5: 9911acf34f08a41593da785ed936584d
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/prettywriter.h
+SPDXID: SPDXRef-item30
+FileChecksum: SHA1: 830f8b25758952747193498e5b1ab0791949e320
+FileChecksum: SHA256: 4e2dddd8db57caac2f54f4551424c5fbcb47cfeb26ba01ba82e9df90a21d76f6
+FileChecksum: MD5: e00725b57db4458ac882d6768b19b8f9
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/encodings.h
+SPDXID: SPDXRef-item29
+FileChecksum: SHA1: c99d1fa0cf148a2ccec3abe02c169d9b0095d40e
+FileChecksum: SHA256: e83626ecf17f424c3979ff850ca188721e9ea96d9d5973f47302d5e5ab07f6b0
+FileChecksum: MD5: 723f9a7204ca3051c63a5f3a96059b21
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/istreamwrapper.h
+SPDXID: SPDXRef-item28
+FileChecksum: SHA1: a803d47d920dc144a48d5bb5b62fb2345ac3ab9a
+FileChecksum: SHA256: ca185d060c0d7edf8a4026bbd706de2f77869f7e642b11ca7dc3a35daa57c5fd
+FileChecksum: MD5: 11f332530606696fde8533348cb77f91
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/allocators.h
+SPDXID: SPDXRef-item27
+FileChecksum: SHA1: a0078c040525eefc5ea277c4e4774fc4fe4ef84d
+FileChecksum: SHA256: af8df398d1863a1d300e26dcc1fea813143ca11c12f13242c2eccad558f85884
+FileChecksum: MD5: 0cd9d91f49f0451a0a2591b44e38ae2a
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/encodedstream.h
+SPDXID: SPDXRef-item26
+FileChecksum: SHA1: a3d3703782bee3c795da69981dddaaeb1eca24ca
+FileChecksum: SHA256: ac15a6f9b872f129d019947505c212db502dcbdb9d9c8806fef8fc2afe3922a7
+FileChecksum: MD5: 198d38d6067e769ec009dc06512f62c8
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/reader.h
+SPDXID: SPDXRef-item23
+FileChecksum: SHA1: 89030b22078302a0019cc25a29a02aa19b3687a6
+FileChecksum: SHA256: 4d0a6d384c86cbab801d93b8b8260d76fb593677e4a17b2e6231ea7b37d0c4d1
+FileChecksum: MD5: dc224c768f021f838be0870a84d456e8
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/cursorstreamwrapper.h
+SPDXID: SPDXRef-item25
+FileChecksum: SHA1: 3b332172d6eac2dcc8336f52e7f666f825a74ad3
+FileChecksum: SHA256: f37c106e59e042d4ebefe00715f33d0599a3c6f028737c91cad4d017846814ad
+FileChecksum: MD5: 49b23e13ae11ec783442f3422339da21
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/filereadstream.h
+SPDXID: SPDXRef-item24
+FileChecksum: SHA1: 12aaa13977ba6e23bec8a454e5b153a6a6341522
+FileChecksum: SHA256: 2d4b395866a0b64dc168e7eb4dbcb8a2f71f411c054cf02ae57be6418aa71e61
+FileChecksum: MD5: 48678baf3c9fcbaa05b6e1e22a1ca8c7
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/stringbuffer.h
+SPDXID: SPDXRef-item22
+FileChecksum: SHA1: aee3df6a39acf619899004067de7f2279c64918d
+FileChecksum: SHA256: 57fc25405c5a97b941c4ce2cdc9cb4ec502c4936196c368c7d78c1e5096d69e7
+FileChecksum: MD5: 202d99ec746402243294fbf11f194166
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: include/rapidjson/writer.h
+SPDXID: SPDXRef-item21
+FileChecksum: SHA1: 83a8050b4549ca32154f2104c469b02c18479706
+FileChecksum: SHA256: a3a762be98c15b2cca66b902bca3a2f0b0ed785ae74924caa9b88589b1eb1a9c
+FileChecksum: MD5: 00ff076412f2a380738bab8ec49de353
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: doc/faq.zh-cn.md
+SPDXID: SPDXRef-item369
+FileChecksum: SHA1: 9b23f0c812c02c380a977aa57d46782a478f713c
+FileChecksum: SHA256: fea178db8baddf57392f4fd67dc53839872ecce6d6daf9fa41da9bd9027f7e06
+FileChecksum: MD5: f37b5b20de670da96a39eb55c8701284
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/faq.md
+SPDXID: SPDXRef-item321
+FileChecksum: SHA1: 6d5e457e3d6a3f7b00725e1cf12a70a9d59d8aad
+FileChecksum: SHA256: f7ef9f43216687c85c5f9b983d285b70e5e95a88e251e7974af0d8dc7b0ab4c4
+FileChecksum: MD5: 454f8893d6a86cb2ba26c4264b98a81f
+LicenseConcluded: MIT
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: MIT
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/schema.zh-cn.md
+SPDXID: SPDXRef-item319
+FileChecksum: SHA1: f6850d10644e17fe2a5c7a11e3b38f5cdbcdccea
+FileChecksum: SHA256: 8b6e2c71c7eeaa148d9eab075ad487b7dbfb272548339f22db7b9fd16f464137
+FileChecksum: MD5: 175492ecbd78bd112d3bc803b9e3151e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: travis-doxygen.sh
+SPDXID: SPDXRef-item17
+FileChecksum: SHA1: e2e0ee6f6df8f80877afe306823edace582d40dc
+FileChecksum: SHA256: 34e519e18596066a6f7a5209af1b271c54afcc920231d7da27f8503dae6d59f2
+FileChecksum: MD5: ee82b0865281705b82983b10c263377a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/performance.zh-cn.md
+SPDXID: SPDXRef-item325
+FileChecksum: SHA1: db4a59600ce44491945ae178d98d70e79c7eff23
+FileChecksum: SHA256: f731296a081cbbafe7b151c35c5b7003ef1d08ab8fb458b84ede84393729aaf1
+FileChecksum: MD5: 2d8135e81fb90d5b48fa0d30ed4baf1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/tutorial.dot
+SPDXID: SPDXRef-item344
+FileChecksum: SHA1: ecdadab0d479ec4e074618b63ee5e62f8729d7eb
+FileChecksum: SHA256: 1b4aabde78fe571c82a8314c2cd5dfc9a22004a811666cccc36d53fda8f73607
+FileChecksum: MD5: 9b12fdd7131bccca31c847ee71ed7802
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/minimum.json
+SPDXID: SPDXRef-item241
+FileChecksum: SHA1: 1a849968c80db05a9ad0a92481edd93dee567804
+FileChecksum: SHA256: 52e98407446b4b8f5dc2a3f50c942b3f3c42354835702c8c80ff60478252a723
+FileChecksum: MD5: ff0cde04fb2e34cb45152b92eadc6d30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/encoding.md
+SPDXID: SPDXRef-item357
+FileChecksum: SHA1: b838d0a99e2696538761ffdda69ef7e24484c8f8
+FileChecksum: SHA256: fc25c82d9652be89a361d1e0dc61f55b2151247ba20f2b70c9aa4dece9ba0a21
+FileChecksum: MD5: 67bbe506ab0e33ddd3e854bfd8e79263
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/architecture.png
+SPDXID: SPDXRef-item352
+FileChecksum: SHA1: 8614be9110286a2b36167e3e007b79167ca06666
+FileChecksum: SHA256: 12e852f0d30a97444dc053e18111eac66fe1803b102c0a94f2856b3e0381b6dc
+FileChecksum: MD5: 15bc408cf143f1deafd9e2c6b46d3650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: RapidJSONConfigVersion.cmake.in
+SPDXID: SPDXRef-item107
+FileChecksum: SHA1: 14ac7363b6f3ca11c97d96b79be03a8857c7f79c
+FileChecksum: SHA256: 27fc5f9f6db3683df914a1200f55d8ba81495adf85825634f721d795c1c2bffc
+FileChecksum: MD5: 2f78ac7f436b735005e8d471a59e6deb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: .gitattributes
+SPDXID: SPDXRef-item14
+FileChecksum: SHA1: 792e2589dcb8060d3e39e9e8641854ddde4ea26d
+FileChecksum: SHA256: ce44507f5c0476c8d5bf8d3f29a85cad7b6ef30c28b8fb076591ab7f21fb94bc
+FileChecksum: MD5: eae0bdce6a6b5f4d726c148b967a20a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/uniqueItems.json
+SPDXID: SPDXRef-item255
+FileChecksum: SHA1: 8c9909ffd2abf8f625f81c18a43c789efa369e34
+FileChecksum: SHA256: dc6f68c737784fe041fc51ddf3dcec414acce426994680ddcb7931b62b0c0654
+FileChecksum: MD5: 4587d491f53de101c3b679990610392d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/not.json
+SPDXID: SPDXRef-item284
+FileChecksum: SHA1: 5b9567e8409e28b256f3704ca83447f0d0abb707
+FileChecksum: SHA256: 73fdbd077087b54977bc73c05a47fad62f47e7b825caff5b29b21114f0ea919b
+FileChecksum: MD5: 89f05fa2e61c9aa53805aa0eb7a2542f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/schemavalidator/schemavalidator.cpp
+SPDXID: SPDXRef-item147
+FileChecksum: SHA1: e16f1d015ef99a34ec8a1c252efcf01e71d7936c
+FileChecksum: SHA256: a82413cc200aa82e54dfb34dfb5a1c8d0fd12bdaafed2c3b34671f1ec8e51bf0
+FileChecksum: MD5: 42ce5e2c19a151cf25b5aa67cb917920
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf32le.json
+SPDXID: SPDXRef-item221
+FileChecksum: SHA1: 4c3ab5e191af338f15899b7f3d90397bb95f3962
+FileChecksum: SHA256: 2429c609fbc88081814bb840b6f32d086f96b81a90a81eeb4312ef77ff2bc898
+FileChecksum: MD5: 9b41ae44c5a035402bbb11644d021de2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/guids.json
+SPDXID: SPDXRef-item160
+FileChecksum: SHA1: b1cf664715940e47c5cf9bd6dcf1b8db19e6809c
+FileChecksum: SHA256: 2e3e7b11c6956bec7f3b0809b5a18c224bdc916f3aaf3154df7930be73b3eaa5
+FileChecksum: MD5: e3e51cf90e9c469c36eafccc301343d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: test/perftest/CMakeLists.txt
+SPDXID: SPDXRef-item66
+FileChecksum: SHA1: 5a4f8ef26e2e4194da7553958aad28c4c0518b40
+FileChecksum: SHA256: d23a2cc1a76b61ea3910d30b42d73f62f18318acd98ba26489e02a198bc78537
+FileChecksum: MD5: 50b4adcf1aa1abed77483f4ab675a5e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/README.md
+SPDXID: SPDXRef-item224
+FileChecksum: SHA1: 6443ef3ebce8ede3f238567520fa80e3957bb889
+FileChecksum: SHA256: d505f665195035782b9531af7a0c6416ff9a5314419fd6ef9d04330dcb3b0285
+FileChecksum: MD5: 10daeefba3ef8b8fee03e15560baf7f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf16bebom.json
+SPDXID: SPDXRef-item215
+FileChecksum: SHA1: dd34abe5f19660df44e8348fe863a8eb0246ca83
+FileChecksum: SHA256: 6ca2fe987c0f37539652a050ebfea9defc85bc643b1cdedfd78cb7740a9691ca
+FileChecksum: MD5: c4e45d0c7d51429cf367ddf345962b8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/booleans.json
+SPDXID: SPDXRef-item157
+FileChecksum: SHA1: 069140df4427e72d6bc80b66636256acf28def4e
+FileChecksum: SHA256: 3101d09ee57560a63f66b8987751f4643479f6776799f6d34a2ddea844583e89
+FileChecksum: MD5: 51c13e383c14bbdd6dbbe8b71e0b9b79
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/mixed.json
+SPDXID: SPDXRef-item161
+FileChecksum: SHA1: edd12070694807bda14715a77529732f4a5d7328
+FileChecksum: SHA256: f58258c3bcf5820201f1828e311bbd0f2db30e262758cb90e1f5daf9ea091062
+FileChecksum: MD5: 0570b846b977ce958d0f6e244ccd7735
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/webapp.json
+SPDXID: SPDXRef-item210
+FileChecksum: SHA1: 30674a85c2af6878b72c44b1d952ebc4a645202f
+FileChecksum: SHA256: f725187f768f7fbd234c511cf5f5537c42b98eac6e8f4ee304cf217993f979a8
+FileChecksum: MD5: 7395e1775d12af5cf7ec6394f49e60d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail8.json
+SPDXID: SPDXRef-item203
+FileChecksum: SHA1: fd72cd0e95adc278fd95b421bd79160d99aa3aea
+FileChecksum: SHA256: fbb0928ebab6b0f1aa7b5a7f10453bf89cc7ed56185bd783836ceedeec248ea8
+FileChecksum: MD5: ce51ef5504fa4acba5a497ace5d4649a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/tutorial.zh-cn.md
+SPDXID: SPDXRef-item334
+FileChecksum: SHA1: 1845bdba1134dab67c0cdb8d71080fd996c2bcd3
+FileChecksum: SHA256: a3f44cb8b67c10bc1df9d769bfd3091a6c05634554021be3859996b79d716d09
+FileChecksum: MD5: dd85e33d77c4bdcf9a4f90f968e89ea6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/tutorial.md
+SPDXID: SPDXRef-item317
+FileChecksum: SHA1: 6fc4229d7c1ad21a4a667bca9798092046dffbb6
+FileChecksum: SHA256: c8a92d1d580142ecdc5986fb450ca379b2b8401105db32fe9441a34132507572
+FileChecksum: MD5: 409ea2979c18974d8f287c82c199c6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: test/CMakeLists.txt
+SPDXID: SPDXRef-item69
+FileChecksum: SHA1: d830cb752e836cc05bd85fe19ed48c84971ae4ff
+FileChecksum: SHA256: 83f4bed0e077bb0a71ea57cb3af7cd4b20743cdebb4309e585458de95eb101ac
+FileChecksum: MD5: 96e0b3b04d5828a3d94ce53f30784a0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/schema.md
+SPDXID: SPDXRef-item366
+FileChecksum: SHA1: eaa1b8e39caa33695f70ab4683e7359c82da0f1e
+FileChecksum: SHA256: 4c6da42259dd98133ba5f36b29bc16562caefe98117c156711097240d23f63a0
+FileChecksum: MD5: 9f5a40cacf935475dac73c36418bbe05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/divisibleBy.json
+SPDXID: SPDXRef-item239
+FileChecksum: SHA1: f93261c3b99ed5c49d6bbd0ba5622d6c5f62d614
+FileChecksum: SHA256: 81f0190157ca5fc6fa4b09316d76bda09564aa81a44ac9a4549ca22a37103ae3
+FileChecksum: MD5: 938d764ffadf470c136df93ea396bcb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: test/perftest/schematest.cpp
+SPDXID: SPDXRef-item65
+FileChecksum: SHA1: 46c22cf7b30c2efd5863c023ec6836012e045a25
+FileChecksum: SHA256: 4506926b38ce0c45f00594e2722ed3e835d7460db9554d1a252d5561043b9620
+FileChecksum: MD5: f694cf550f15158a7eb9e95caea1117b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/uniqueItems.json
+SPDXID: SPDXRef-item288
+FileChecksum: SHA1: 8c9909ffd2abf8f625f81c18a43c789efa369e34
+FileChecksum: SHA256: dc6f68c737784fe041fc51ddf3dcec414acce426994680ddcb7931b62b0c0654
+FileChecksum: MD5: 4587d491f53de101c3b679990610392d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/internals.zh-cn.md
+SPDXID: SPDXRef-item367
+FileChecksum: SHA1: e31344c20943095e1e81eb6f44d4e6008216335a
+FileChecksum: SHA256: 650fe9e5402fe0a843d88668b165d2bd1dc51d954b404875d64315b519508526
+FileChecksum: MD5: d0de7e2586b3c3a6a462b4b950ffdc1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail10.json
+SPDXID: SPDXRef-item191
+FileChecksum: SHA1: 679a71a2e28bde7d65e74971f55b4eeaa43555de
+FileChecksum: SHA256: ffea57a589f965c41b8778f1f0b69a1f4b7a14f072b868389cd6e2d249a33246
+FileChecksum: MD5: 1afcc97c783efda1b05803aa411647c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/readme.txt
+SPDXID: SPDXRef-item156
+FileChecksum: SHA1: ff212d3719c04e9f3b64c4779d8cb039bf37c828
+FileChecksum: SHA256: 9917b6aed77f2ec03447daacbfa0cab74df7259b50c6b4774dea51f602cd2c10
+FileChecksum: MD5: 7380fc8edf2d69b093d70357d9722cde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf16le.json
+SPDXID: SPDXRef-item220
+FileChecksum: SHA1: 9782f466bf4f13e8e9a293dfeb4337344b0c2e07
+FileChecksum: SHA256: 9218c415f17dccafbb91efd65fc740609450e48856eea928237a12fada2c99e3
+FileChecksum: MD5: 788cda26df46ff9313031b153c60ab48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/tutorial.png
+SPDXID: SPDXRef-item351
+FileChecksum: SHA1: db34c8771e1ea743465d3fbb53b6a113945379a4
+FileChecksum: SHA256: ceeb096f1d819ce6474ea2eefa78babc76636d9819e9aaa0274022153b604238
+FileChecksum: MD5: c44820ca7ac2f3bb15db40514cd5dc8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/utilityclass.dot
+SPDXID: SPDXRef-item340
+FileChecksum: SHA1: 694605ffce03003a33fe31426e3ac52707c52e3a
+FileChecksum: SHA256: 8029eed9db9c4dcc4eda994f298e18a3c64739fd7b1edcfb3964a9077ba0a4cc
+FileChecksum: MD5: db0905961dc6a71ef73175e37849466d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/dependencies.json
+SPDXID: SPDXRef-item298
+FileChecksum: SHA1: d239f1bb8cfffb7487335c73e02c6cda10d4ef5b
+FileChecksum: SHA256: 55df208626c9e90e989cfbce92dbff23b2fd863651978fdb02613bef8a1db492
+FileChecksum: MD5: 4d168a172cc6be6068780d10ebb834d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/serialize/serialize.cpp
+SPDXID: SPDXRef-item126
+FileChecksum: SHA1: 35b828d5771ec063d185d8470d66c74e7a882791
+FileChecksum: SHA256: 094ba98cba621e84c170abae95acd46b15c548b736c3556608148ed80be8350d
+FileChecksum: MD5: ece579f9a996413bb2ff3cf81a67360b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail25.json
+SPDXID: SPDXRef-item194
+FileChecksum: SHA1: 3e99ef7619db6a91c5095825f46e4d0b362745ca
+FileChecksum: SHA256: 8305373703e9a50e767c42929d22bb69b377cf62a5aeba4dc60bfbf28939411d
+FileChecksum: MD5: b9a20d69a70dc40f92f13d29b7d1bac5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/archiver/archiver.cpp
+SPDXID: SPDXRef-item135
+FileChecksum: SHA1: dee537e8a657f75b544a34345e2409ead65425f8
+FileChecksum: SHA256: fb95344e7742b2e7dab7e54d4be27eacef9b64d70ca41f4708d7b871d38d3451
+FileChecksum: MD5: 53b0fceec5dddea0d722f99541477bfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/maximum.json
+SPDXID: SPDXRef-item252
+FileChecksum: SHA1: c205edb4c5bd171c9e1f4955f5cc3b94ca78cb0c
+FileChecksum: SHA256: f2cf731dabcdacd9c2f3bb0af9e67aa47b75c63f03d22939e0d400f92405e488
+FileChecksum: MD5: abb73d142c1c75485050ef91709bb371
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/ref.json
+SPDXID: SPDXRef-item269
+FileChecksum: SHA1: f56752f66a1dadeb4664934b237d09f6344fb874
+FileChecksum: SHA256: 095c83715a5c450baa30e186656dad65fbbfbd4353cdc1b17a8d08abe31f797d
+FileChecksum: MD5: 80a4c29b0014482c0b8918080d4c2d20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/maxLength.json
+SPDXID: SPDXRef-item249
+FileChecksum: SHA1: a7aff353343095ecb7e7213d041ba0e2885c8d28
+FileChecksum: SHA256: 08511ada9dccc03e942880b7d87e59adce1a5e613159dea7e44a0f2577ebd74a
+FileChecksum: MD5: e43e92850fb1b6dcb7a65db97729a719
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/optional/bignum.json
+SPDXID: SPDXRef-item259
+FileChecksum: SHA1: 32b70fb2c2156c979702eec5c18a86c1fe6d0bd7
+FileChecksum: SHA256: 4bbe93617efeedc563ea45739cbd3a76821e60d572ed8c8d59fbf3467920e2b8
+FileChecksum: MD5: 7672d6652bedfb94d7779980f996bc67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/anyOf.json
+SPDXID: SPDXRef-item295
+FileChecksum: SHA1: 8081feb305d328878b37a7cc3b296eb5544c239d
+FileChecksum: SHA256: d0d124e0e14a427b8865d22e197fbba47329ecc6c0f105518a93ea86980919a3
+FileChecksum: MD5: a0dd5428d9b0110c19a57c77bbdf49a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/sortkeys/sortkeys.cpp
+SPDXID: SPDXRef-item112
+FileChecksum: SHA1: aef4c8248ccace687702aeef9e3cc06821b5a88b
+FileChecksum: SHA256: 2f936b2fdb6855c9c72be0389b77c81b78e49976e15a7c13a53652a91483408f
+FileChecksum: MD5: d28d43f5949cd4343f1550d6b9c53804
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/enum.json
+SPDXID: SPDXRef-item254
+FileChecksum: SHA1: 00ef7a2317fb93d40ea8bfd17be00cef250abeea
+FileChecksum: SHA256: 3daa4059d0625ad287b340ce48ed355dae3d60149de662fa0c8c200543cc5962
+FileChecksum: MD5: b1043be8e9fea9c72a7412de145412c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/simplepullreader/simplepullreader.cpp
+SPDXID: SPDXRef-item132
+FileChecksum: SHA1: 8df50ebfce7ac4e36f1608917ea7cb7fa28eaf89
+FileChecksum: SHA256: ed13a120e1f7661dbd3cb5470e0293360e746212ff5a65df1ba4cb00aece655d
+FileChecksum: MD5: a74386279c0eba4cf30e971945963ce3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/insituparsing.png
+SPDXID: SPDXRef-item336
+FileChecksum: SHA1: d84867cefc785b025619b71108d9550088f2ad27
+FileChecksum: SHA256: c3b0ebaf165c522eccc02686cb916e55fa3e2a179b129663c9f2fae11b0cbfd7
+FileChecksum: MD5: 3a298f0ea0d69c29b23de109f603a25a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/logo/rapidjson.svg
+SPDXID: SPDXRef-item316
+FileChecksum: SHA1: 84b74a0052bf28b7aa58ef2c4a0a2c88a7790e3f
+FileChecksum: SHA256: 763f69837c12e302c52bd42bd9bcecbcd80dc33055452c5ccfc4daf20fa609a2
+FileChecksum: MD5: a5f6358505ca4f382975a5e95275033d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail30.json
+SPDXID: SPDXRef-item178
+FileChecksum: SHA1: aeee5db1207a3b3c5e0176bbfaab4c3a7bcbd652
+FileChecksum: SHA256: 3f54bdbbd4e3ad547fa457b5810df7c96f2d2c3bc6985e11202ffd1d42116889
+FileChecksum: MD5: 6866178af9153f080f0256f63dd651b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail14.json
+SPDXID: SPDXRef-item169
+FileChecksum: SHA1: afec9f495586dfa2481c3b49bc6d99e2499ff3b6
+FileChecksum: SHA256: 4c353586a59fd208964f41f12547ef9e403520b87e9d9fe73c0bd6951de36933
+FileChecksum: MD5: 0a6084ef38ee7ada66fef9b9f59417e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail17.json
+SPDXID: SPDXRef-item176
+FileChecksum: SHA1: 3c8d5e81e3b6278e328b4d06dfb616292e497adc
+FileChecksum: SHA256: a806d560ae63698f5082c7e51189395be458d1709db63244d26846f5a1e1a91d
+FileChecksum: MD5: 028280cca3cfd3bbf13f99d1eef74132
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail2.json
+SPDXID: SPDXRef-item201
+FileChecksum: SHA1: 19f3b6327c01cda200f1113631fae30b9e21cd74
+FileChecksum: SHA256: 9dbe48572aa40ff5e44b7b0e691e1b487d37cd4cfb34cf5bb506a5b6e965ec3b
+FileChecksum: MD5: bb8eeb1abcd03416630c46453afdf9d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/bin/jsonschema_suite
+SPDXID: SPDXRef-item226
+FileChecksum: SHA1: 6b28261e5123cd821c61812b57d887beaef30516
+FileChecksum: SHA256: 8c824bd25820ccf8bd48593ec13d5a14603e91a9ac921c4c341deef298dc062a
+FileChecksum: MD5: 1ae2d2bca9b47161fda144fab4d3aa55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-URL
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: test/unittest/CMakeLists.txt
+SPDXID: SPDXRef-item84
+FileChecksum: SHA1: 24ce61a3a68a513c158e865e437519ec85685888
+FileChecksum: SHA256: 8dbe4be12dc21352feb58f4b4d1b7866c7c9d9bde384ba60864c589048f54095
+FileChecksum: MD5: 41511d6052761f51532db4802f13b161
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/pretty/pretty.cpp
+SPDXID: SPDXRef-item118
+FileChecksum: SHA1: 4efe9c4a852cbc676605ac8fc54c11b0a940d27c
+FileChecksum: SHA256: c8cd2f1bbf8a553405abf99eae28b1f7303417798d99c7538dbca324878e7055
+FileChecksum: MD5: 12194bac2a586cf9b98eb0ca91de234a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/simplewriter/simplewriter.cpp
+SPDXID: SPDXRef-item145
+FileChecksum: SHA1: b43f2fde9d009ae09afa72a369149c68ae7b8f34
+FileChecksum: SHA256: 097ff1c98545a7b59aca45562f748e5b272a8e738f59bf8765932305b87a8f9b
+FileChecksum: MD5: b5226ad929f6a3868224809df8388366
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/additionalProperties.json
+SPDXID: SPDXRef-item244
+FileChecksum: SHA1: 34478026a586b1ff8b96dbe54efdf7515099da7d
+FileChecksum: SHA256: 1e7999eadbdc57ae664394e071aa941fabb2b049a5c150bdefad858ea43fac50
+FileChecksum: MD5: e1e129fb0b7360ab93047cc254813dd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/minItems.json
+SPDXID: SPDXRef-item248
+FileChecksum: SHA1: 176fedc074768c6ec5c7ceb979f23a6a4bd0be58
+FileChecksum: SHA256: f20fbbfebbb3311a12027ed2064cb4334f09b6d06642e3de0dd0a69bc4ff7ce5
+FileChecksum: MD5: d4cf8bd6e9872a992626dc6bfb9b0918
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/.gitignore
+SPDXID: SPDXRef-item235
+FileChecksum: SHA1: 2494f9b4f745bc8470ca0e9634a892a3d652fb0e
+FileChecksum: SHA256: 56ba36249ea8216ad513b13df3de6c0e490ba214897674d30331f1c7e7edbef3
+FileChecksum: MD5: 9b7105f44b18bc0d5649658e6e111aaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/readme.txt
+SPDXID: SPDXRef-item170
+FileChecksum: SHA1: cefbd183b333bc8838f420402ea1eccb0cd0dbdd
+FileChecksum: SHA256: c328f63bf745f377cc79490a3eafaab4e0482a97e4a8cd85b5f381c30304f253
+FileChecksum: MD5: 313356804f70758e79638fa13cb18e3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/floats.json
+SPDXID: SPDXRef-item163
+FileChecksum: SHA1: 18fae3a6833bd53fe78c94418bd371e7463d95e0
+FileChecksum: SHA256: db5029281e904dee8bf96198a89ae11d065e4be80d3d56e7efe415a7a60f4af3
+FileChecksum: MD5: 7fe1b6a0deea57561c00e898897dd9c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf16lebom.json
+SPDXID: SPDXRef-item217
+FileChecksum: SHA1: 2e16f518e4ccbe122ac3b51bdc1a686648be3242
+FileChecksum: SHA256: ed1b89c7ca530975feedef0a20febb4b6c370c5a19803e3643e430e1b8ca3e0e
+FileChecksum: MD5: 5718f1533ac13d7ca09a228fd57905cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/remotes/subSchemas.json
+SPDXID: SPDXRef-item231
+FileChecksum: SHA1: 37c96fe4e2078670eba4b9b8a7bd7dcad1fd6563
+FileChecksum: SHA256: 86cd4e6a45679ebca0f679c1fb2b8dff89e7c1e073c3c9176ea0563efef2f83e
+FileChecksum: MD5: f255bc29c11a7e1b356dfc55be7d2113
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail5.json
+SPDXID: SPDXRef-item198
+FileChecksum: SHA1: 99d41efd61b097bedd707d3f3245665d3aa724fa
+FileChecksum: SHA256: 40b23c469b617b09914010ee5c5aa0faa706061f77b4a96b374742c18bb17d42
+FileChecksum: MD5: 804fc4558802e256c1eceb108df960e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/default.json
+SPDXID: SPDXRef-item283
+FileChecksum: SHA1: 17c051cc94a9fb40ad627b04a41d7dce9150e3b5
+FileChecksum: SHA256: 37e0350cc4d4d6c5f0de3ca829cff1e4ae4d4e2716ddf3b8cb807a80f8e19876
+FileChecksum: MD5: 4f3bd88b64444847111661a0b3c4c2d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/abcde.txt
+SPDXID: SPDXRef-item207
+FileChecksum: SHA1: 03de6c570bfe24bfc328ccd7ca46b76eadaf4334
+FileChecksum: SHA256: 36bbe50ed96841d10443bcb670d6554f0a34b761be67ec9c4a8ad2c0c44ca42c
+FileChecksum: MD5: ab56b4d92b40713acc5af89985d4b786
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: CMakeLists.txt
+SPDXID: SPDXRef-item300
+FileChecksum: SHA1: f857ba524a82004bd3f956f3fe3cab57d18537aa
+FileChecksum: SHA256: 1288870c181d67c164445e0d19780add9db20fe0d0f793531e20ef985a8d1208
+FileChecksum: MD5: e9864ec1ec377742b77506484b4e066a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/minimum.json
+SPDXID: SPDXRef-item272
+FileChecksum: SHA1: 1a849968c80db05a9ad0a92481edd93dee567804
+FileChecksum: SHA256: 52e98407446b4b8f5dc2a3f50c942b3f3c42354835702c8c80ff60478252a723
+FileChecksum: MD5: ff0cde04fb2e34cb45152b92eadc6d30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/parsebyparts/parsebyparts.cpp
+SPDXID: SPDXRef-item130
+FileChecksum: SHA1: 6fc78286ef83461465f935cddaa06b33e0dc4142
+FileChecksum: SHA256: f80550de9db804f3ea859c53cbd297ba71ca36ecdecde0427d076d292466806f
+FileChecksum: MD5: 486a2f30b9d927a69d3842303233d165
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/condense/condense.cpp
+SPDXID: SPDXRef-item128
+FileChecksum: SHA1: 1aa1fcba1868e88816da205e3305521fe256e3d1
+FileChecksum: SHA256: 59ae627f2191a6c3414c2d25df7fb47f2073b2c9d21c8f275805fbb19b5e6046
+FileChecksum: MD5: 32c6a6d1ccb88107b65ac66d185a4a36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/ref.json
+SPDXID: SPDXRef-item240
+FileChecksum: SHA1: 856bc81bed88be8ebd5e1f8398d48edf4cc61fb7
+FileChecksum: SHA256: 8f3fe8cdd647f8f4a5ba9e030020b390a73fef49465c9acd80cadd5d43aa886b
+FileChecksum: MD5: 7b78769eda6377ebce3ac7ae2308ffc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/nulls.json
+SPDXID: SPDXRef-item159
+FileChecksum: SHA1: 09ddacb6dd0c2ae03efd07d837fd5286e767d8b4
+FileChecksum: SHA256: f25e9b305ec0552fc1c06b06b48d7fed63e0c6cb2b62ea60de454a5fb438fbaf
+FileChecksum: MD5: 82b247ece3498b43ea7c7d75a0db2dc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/move1.png
+SPDXID: SPDXRef-item354
+FileChecksum: SHA1: 261efad301458ec1a2fb0e946c8d76539161bc69
+FileChecksum: SHA256: 40e9f2bba4c7f8df962dec7b2b8448e953d9ca431cca760cfff139d3ca862b0e
+FileChecksum: MD5: cab219ebf1250b188732f9fa8fdbb4bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/patternProperties.json
+SPDXID: SPDXRef-item256
+FileChecksum: SHA1: e0080348b213f1d004af7d5c43c2f3f29375224b
+FileChecksum: SHA256: 118dca75012c96300c1ce2ad0cda7cb59e897ada1abdbb867aaaac08ad86cd07
+FileChecksum: MD5: 3287ee9a321ee749410a42b0eb964433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/multipleOf.json
+SPDXID: SPDXRef-item267
+FileChecksum: SHA1: 9e70c593b1cc3a3572a0d389b5b7a171bf292ddd
+FileChecksum: SHA256: a850e2a1729f2cf099d42c912860ecd21906718135199e473331a6db565d5192
+FileChecksum: MD5: f31aa2a0de68f0078a39f00ae01dfadf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/move2.png
+SPDXID: SPDXRef-item343
+FileChecksum: SHA1: 206a2df5e3247180573496b736395d2b7b4ab99a
+FileChecksum: SHA256: aa33fde0f84e84828efaeb8f6514bf952846cd4cd6fbd447aef8bdfa3f58b13e
+FileChecksum: MD5: 71eec9bdabac59df0b59522c39a42451
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/iterative-parser-states-diagram.png
+SPDXID: SPDXRef-item353
+FileChecksum: SHA1: 6208824eff54be783cfecb6e4633f18e59d7cad5
+FileChecksum: SHA256: 4e16584a39231625e3d9335b23ae297dd9a5b79448d13305df45d9d940bf9d18
+FileChecksum: MD5: 2c8236b288f8998e51a15830923bd2a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/items.json
+SPDXID: SPDXRef-item246
+FileChecksum: SHA1: 873828cf8ad5d2701022650e99367cb0a89624b0
+FileChecksum: SHA256: d698b51a3d3707701d610836453e1fd0c65dd249240ec1d9874ad725556cf5fe
+FileChecksum: MD5: 789b756d656ccb37e5308d481b8ee937
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/misc/doxygenextra.css
+SPDXID: SPDXRef-item328
+FileChecksum: SHA1: c4c27787da5a1129c294d2c80674745402159219
+FileChecksum: SHA256: 9a0f9bc6c3f0b437ada925efc25cf429b2905f67bffd4a595c903469bf8f8a85
+FileChecksum: MD5: d002ed6be9370fa68582ad39e8d98129
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: docker/debian/Dockerfile
+SPDXID: SPDXRef-item102
+FileChecksum: SHA1: 048176a071646015b1d021a5a61dcdc0f7269d9e
+FileChecksum: SHA256: 6f2ae16136478261c9a814aa353e95903d45b5a5f97872c2f0a5a5a07120c522
+FileChecksum: MD5: afdb03423604946debf7fc8f36865588
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/logo/rapidjson.png
+SPDXID: SPDXRef-item315
+FileChecksum: SHA1: de3ec327b72024f4a11db4a51b4ffb0cfe71a37f
+FileChecksum: SHA256: a7f339c91bc9dee926b8ce6e9cc526f7e25a0c03e2c37ec9af23a4aa6bbf6683
+FileChecksum: MD5: f53fe5c5954d3aa6329590ec3ee1964a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/lookaheadparser/lookaheadparser.cpp
+SPDXID: SPDXRef-item141
+FileChecksum: SHA1: d2025fc1d2a65b9b0f8ac483ae89a9cb05035ff4
+FileChecksum: SHA256: e39cd9dd715c7b81ddfd4564371fdec8dfcd54996f17bb5fbaf23c83fd1d4358
+FileChecksum: MD5: 8a81d8418bf09870ec734fbe9e7781c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/required.json
+SPDXID: SPDXRef-item263
+FileChecksum: SHA1: 6cd95ad810f5ee5f90bc22c72ed2f4260b036ee3
+FileChecksum: SHA256: 9b874a91f6fa946f6565338e4915ed76d9fed5b1d3aa45c5eed42950d6d6032c
+FileChecksum: MD5: 991ca61bf8b0bcb23efb9a925a0eb565
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail6.json
+SPDXID: SPDXRef-item177
+FileChecksum: SHA1: b496d81dcc2c11af1dd8f6dd37c06f43995a7f92
+FileChecksum: SHA256: 9cac15bfc3db16d965b9074329f4b7b26443fd4ccbf21cc545cc718114cbda20
+FileChecksum: MD5: b762ff8acc8ebd677505c4257a732b4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail21.json
+SPDXID: SPDXRef-item202
+FileChecksum: SHA1: 4286da59fe0e3fd41f1d3e126a93b21e108dcdc8
+FileChecksum: SHA256: d786f4c34fc330006cfd6ef9a855d4233ce7ea4ffdce19a1aeb6498ae0341edc
+FileChecksum: MD5: bb3c20f765fcb22d9340986f1f9bae05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf32be.json
+SPDXID: SPDXRef-item216
+FileChecksum: SHA1: 75b6606ecfdeb13cd22567a6bf150fc720bedc4b
+FileChecksum: SHA256: bd4ced5b15230c8258148639606481842e666405ebeb94f1726ff1c3958ffd18
+FileChecksum: MD5: c39343b1c3ba799338af12efb7fb22e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tox.ini
+SPDXID: SPDXRef-item234
+FileChecksum: SHA1: 763f153d2d58dec98346ab6990baa5d5dffad78b
+FileChecksum: SHA256: 936f56fd2809ca1c65c3c75eee39150073b57052f988a3b4a9d3a1c73976f043
+FileChecksum: MD5: 8f86402d99af0ee7eb11405fed454be7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail32.json
+SPDXID: SPDXRef-item186
+FileChecksum: SHA1: 7438ec5e56d578d9172d48e477763d25bc9d8dd3
+FileChecksum: SHA256: 15388c40b8b3920b49a317f303140234fecaa37d6adc8056f54b8d7d79cfba87
+FileChecksum: MD5: bfce0ff7b72aee39f7cce40df3c64213
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/pattern.json
+SPDXID: SPDXRef-item282
+FileChecksum: SHA1: 30996b58748cb366e0eb54bc5252ba9a3d353e19
+FileChecksum: SHA256: bf2211cf8fd220bf6b42f9545507ced63830de067f37f74477faf2dd97dcf144
+FileChecksum: MD5: 240f211f0b79a20982ed779d242316ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/internals.md
+SPDXID: SPDXRef-item358
+FileChecksum: SHA1: fa0f0a4024d9055b3af3b24847c66b813a16f8e8
+FileChecksum: SHA256: e1159248e92f0d18937e44c73ba2e65d774273e2fa57284cc8817e610dc5aa34
+FileChecksum: MD5: 521589bc29bc8d58ccdd3580835a78c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail24.json
+SPDXID: SPDXRef-item188
+FileChecksum: SHA1: 7b2952e86e777300b985c2bcb13f6864ee64c74e
+FileChecksum: SHA256: 0389d0d5920ee2996811974bdcbfe05c9ca0ed79af909704b8485bc86f6eaf25
+FileChecksum: MD5: 54237290d463816171e5f3df5a7dca88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/refRemote.json
+SPDXID: SPDXRef-item273
+FileChecksum: SHA1: ef0c43623cad9a3ceb7b407272062ca55c1c9c7e
+FileChecksum: SHA256: 6b68176b94b3532cdfe51a51507e5b640ceb87398bf429bd1945b1a55f72b538
+FileChecksum: MD5: ed65fbbd7ee3319249479ecff8a42809
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/required.json
+SPDXID: SPDXRef-item296
+FileChecksum: SHA1: 35b980ec46ea56c7c7c38afc63c84a863d4b3132
+FileChecksum: SHA256: 59d20612c28c570457f8f7248d6b2aa2aeba08f150483608e505634a48e9dec7
+FileChecksum: MD5: ce9d8f1331692b43a56de9db32d3a1c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf16be.json
+SPDXID: SPDXRef-item219
+FileChecksum: SHA1: 36c6e8e4101d34ada273c8a6c6566081266dff69
+FileChecksum: SHA256: 360d0b31e49df1601c809a5881e5781bc58f1affa37cc0b7ce2c3cf954dd15ea
+FileChecksum: MD5: 26f1fca521ed90fd8491b33c240fd2a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/pass1.json
+SPDXID: SPDXRef-item173
+FileChecksum: SHA1: 45ba3a40ed8e1b4a4049921e39983e5037bb122b
+FileChecksum: SHA256: a46f670e9676dd3d5a22ccbd44be74391cd57867f0a20ee9c5bba2c1e9742239
+FileChecksum: MD5: a15c0039ca490d6058a6f7b96191c5eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/properties.json
+SPDXID: SPDXRef-item278
+FileChecksum: SHA1: 1aacdf890a9b844c7275f6ad2f3acc2f9100219c
+FileChecksum: SHA256: 10df6e99c89fefd96e8a2b3b25dee4adc0964b1def2175fa513c775ed8d41a64
+FileChecksum: MD5: 02b8d4206d3718d46ddda7fdaf42018f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/simplereader/simplereader.cpp
+SPDXID: SPDXRef-item143
+FileChecksum: SHA1: 2b591af4edb0336b0edef82c70f5b00a4bcd68ae
+FileChecksum: SHA256: 723f64435dc6260ca8fb3dd8cef0edc8e19de3a681f519eb86e6ec5f8ce9384d
+FileChecksum: MD5: aa3a14210aa6a58fc3dc504510b278d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail29.json
+SPDXID: SPDXRef-item192
+FileChecksum: SHA1: 771a1b4f77d751080bb9c653ef6e9b622908b0ec
+FileChecksum: SHA256: cd279aa777afca083b346dbc2b62a1847c24f1556b619b7564842457f8949c93
+FileChecksum: MD5: a23fe576a1ce62365c6246a7ad7dd497
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/CMakeLists.txt
+SPDXID: SPDXRef-item139
+FileChecksum: SHA1: 728968e8d848918ddd7d558533832f1f3d8443dc
+FileChecksum: SHA256: 534577e2cdbc2ad251eb6f8772ffdb5ae0d8e3d2cf491bde5554ccca0955f056
+FileChecksum: MD5: e8b4cf8aa8244c1794ed6185d01dfc71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/performance.md
+SPDXID: SPDXRef-item326
+FileChecksum: SHA1: fd428647342a9d978e02f466d25802472cb5429c
+FileChecksum: SHA256: af8d421bfd0d668044c928c51c56313021bf73ecaee6b90d32bbffc401203601
+FileChecksum: MD5: fc91d7ecf7f1e1f06d2d47ab13a8fdc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/archiver/archiver.h
+SPDXID: SPDXRef-item134
+FileChecksum: SHA1: 7b8941ebca64e50dbccc02c6b4fd87a4b81be0b6
+FileChecksum: SHA256: 6ad3dbb7fc6b9190312d1f9d347da6c57bdfd4e1d92912edcff35780b4a1311c
+FileChecksum: MD5: 73b09b1023b56256e5926c328ad1b7a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/pointer.zh-cn.md
+SPDXID: SPDXRef-item324
+FileChecksum: SHA1: fb0238917c4a0c941121f03d622545eba93df3fc
+FileChecksum: SHA256: 7f48c7dd3611f3db49ac6edf908fb3263c16b1627147ba3d1263bac5ce80799e
+FileChecksum: MD5: b545f118c1190dc417687a956779409e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/additionalItems.json
+SPDXID: SPDXRef-item243
+FileChecksum: SHA1: 27d59858bfa22eabaa96f2ceb80c50e5f45edcdc
+FileChecksum: SHA256: 346c57f3f8d2ad182b63fe02ed7483c76a703c83aaac27d03c37db2310276eaf
+FileChecksum: MD5: a0f2da2ff9f751cbc92460d5fc2da07a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: RapidJSON.pc.in
+SPDXID: SPDXRef-item150
+FileChecksum: SHA1: e573728de4a18e6fb49266bfab29ae50ebbe3924
+FileChecksum: SHA256: d0b81074f71df5402eaaa2b73914c350ac80a7d4b2376660a1ebbd334561cef5
+FileChecksum: MD5: fe3d077d6f6e01397c3dc6df087574fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: rapidjson.autopkg
+SPDXID: SPDXRef-item308
+FileChecksum: SHA1: 04d0efb68045d2301561af2423ada0f4adec044e
+FileChecksum: SHA256: 904b8e0011c53129455979174665bb1b1e60e2b6deb33b2c42bd8d5bbcd8fd6f
+FileChecksum: MD5: ceaff963edc6023ccbcb83a7c4ae0778
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail4.json
+SPDXID: SPDXRef-item193
+FileChecksum: SHA1: 79963e569b1a98866c84ccb4a50ab28649e24e67
+FileChecksum: SHA256: 15836776fdc7d0473f68c35c1295e473d57c215af1232b439b28120f674be45f
+FileChecksum: MD5: 0b9a4474e4e7afce836a6db639c4ae35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/patternProperties.json
+SPDXID: SPDXRef-item289
+FileChecksum: SHA1: e0080348b213f1d004af7d5c43c2f3f29375224b
+FileChecksum: SHA256: 118dca75012c96300c1ce2ad0cda7cb59e897ada1abdbb867aaaac08ad86cd07
+FileChecksum: MD5: 3287ee9a321ee749410a42b0eb964433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/minProperties.json
+SPDXID: SPDXRef-item271
+FileChecksum: SHA1: b61b2829899d8a5f6bbc8bde2b694b69bb35d38a
+FileChecksum: SHA256: d4e395ea0c698d0d2c663821fd4128e4516021e88eb1e27a7bf8fc556ca7ca26
+FileChecksum: MD5: 0a86bb0f028c2882ee5142249f9057c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/items.json
+SPDXID: SPDXRef-item279
+FileChecksum: SHA1: 873828cf8ad5d2701022650e99367cb0a89624b0
+FileChecksum: SHA256: d698b51a3d3707701d610836453e1fd0c65dd249240ec1d9874ad725556cf5fe
+FileChecksum: MD5: 789b756d656ccb37e5308d481b8ee937
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/simpledom.png
+SPDXID: SPDXRef-item338
+FileChecksum: SHA1: b47c6b8ff830528e569788bf9f02bf405b2165d9
+FileChecksum: SHA256: ea444cb8a3d83369d804c4ac08cd660891a81d2fb20f956427df38ff13f0cf4d
+FileChecksum: MD5: e6fc2af93ffd753c8300c77d38820fa9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/insituparsing.dot
+SPDXID: SPDXRef-item345
+FileChecksum: SHA1: 1b276a853d8f8bbad368dd6be3f1f808df1021b6
+FileChecksum: SHA256: e93a897870a7564fe63714f8d62df745eef01d2d462553cc670a61e774ca3634
+FileChecksum: MD5: adb635ac78a32f48904053deb6be392f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail15.json
+SPDXID: SPDXRef-item183
+FileChecksum: SHA1: 49c2425a7696be608318caee18065c1b8e14520c
+FileChecksum: SHA256: 656c4510d2ae41d28f3bb5498a7df7e87652bbbb35a7c7ef7c28d4a3d1d59eae
+FileChecksum: MD5: ef67c8110cca5bcfff5c070a7c071d3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail1.json
+SPDXID: SPDXRef-item184
+FileChecksum: SHA1: 0b0262946e5245eef3b5481c90a13b294967e6b7
+FileChecksum: SHA256: 438b1027386f69e8ff72306d162bba30745cfc3ad99522c06b77093f6b2868b1
+FileChecksum: MD5: 400e3d2393f7797cf5dbc738ccfc2228
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/optional/format.json
+SPDXID: SPDXRef-item260
+FileChecksum: SHA1: 33469d844868d73c1e8cea327dfb610693e9ab3d
+FileChecksum: SHA256: d327147a9c57b6051de7dc9824d745a0d4d5578ff0e358f5aa1969dd3a250375
+FileChecksum: MD5: a60c0853f80745474a44fc16d4230528
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail11.json
+SPDXID: SPDXRef-item172
+FileChecksum: SHA1: 43f3f4b8cebe2bafbd221b4285059228358f4b70
+FileChecksum: SHA256: ba669b02c583cdc66458f9318ec64f2787e1edded69cee94361d9d04bf87b591
+FileChecksum: MD5: c5c9388094c23469158d3172d433d139
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/move1.dot
+SPDXID: SPDXRef-item350
+FileChecksum: SHA1: 399659951dbb2b210222eeeddafac4de7995b0d9
+FileChecksum: SHA256: 2bb8c2dd3080667a8ce054bca64122d51f831e68a8981ffcf9778b6e701c29d3
+FileChecksum: MD5: 293f8f79a84663c5d63cac2668115a93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/simpledom/simpledom.cpp
+SPDXID: SPDXRef-item116
+FileChecksum: SHA1: 9b5ecbb475597a90a1fdd646ee5d5e9425f7ca3a
+FileChecksum: SHA256: a30da6f11be4dfe5dda90e9d545014996b5e1d2cca5623b7c7da383a89fa891c
+FileChecksum: MD5: 4d30a4789bd8beffb45711dad4d77567
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail33.json
+SPDXID: SPDXRef-item167
+FileChecksum: SHA1: 096a91815ab5830e13e4f733fc5ea4ea52c56c1b
+FileChecksum: SHA256: df72f007b029ebe06bffcd6083deff92aae557aa172eaf7e2504a3222dc73b60
+FileChecksum: MD5: 835bf3bb717a92a97e1b7e00d5bfb270
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/paragraphs.json
+SPDXID: SPDXRef-item158
+FileChecksum: SHA1: 44ee8b28d736b4d416126662747185fd6fa240fc
+FileChecksum: SHA256: 2a37599db74922aae1e7bcd692751660d3a3fea4ae8dd13c99d1c3063585c1a5
+FileChecksum: MD5: ad03aea710a991ab24c8038cea1ac6b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/pattern.json
+SPDXID: SPDXRef-item250
+FileChecksum: SHA1: 30996b58748cb366e0eb54bc5252ba9a3d353e19
+FileChecksum: SHA256: bf2211cf8fd220bf6b42f9545507ced63830de067f37f74477faf2dd97dcf144
+FileChecksum: MD5: 240f211f0b79a20982ed779d242316ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/misc/DoxygenLayout.xml
+SPDXID: SPDXRef-item331
+FileChecksum: SHA1: a214ad538b49b99208b6a142ad75858ebd9c4e70
+FileChecksum: SHA256: 819b7dbacbd935d9cf03c6bd7c007ac060452cc0c8a0d79c99ed01ea1373b244
+FileChecksum: MD5: 1483ec7861e6d25485fc9742700276c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: .gitmodules
+SPDXID: SPDXRef-item15
+FileChecksum: SHA1: f832a9a29e386b0e3120dd1a9695a33c9a55d5f5
+FileChecksum: SHA256: 55f29aa6200195cd880ed8331dcac28599f181327a7c0ee3094a88769e04060c
+FileChecksum: MD5: ec599683ad94b17cb9d4d661f4386350
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/pass2.json
+SPDXID: SPDXRef-item174
+FileChecksum: SHA1: 354f78b3b4d0fe3ce01e06af68c7a21083146c98
+FileChecksum: SHA256: 7f9deff2652df58a02ca676ff9494de3d93f18db64c7f20f9596dffb8c92f187
+FileChecksum: MD5: 5cf1df8b4bbaef4766168b573c13ce40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/sax.zh-cn.md
+SPDXID: SPDXRef-item362
+FileChecksum: SHA1: fd35160c0d59282780e845e96a24d45e73d05223
+FileChecksum: SHA256: d28a36f37d612c764570313cea82cce7d37a2c08042e8971da1dfd5eef16df6e
+FileChecksum: MD5: bbc21aef46180d05c0d2b42f093b4aa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: contrib/natvis/rapidjson.natvis
+SPDXID: SPDXRef-item304
+FileChecksum: SHA1: deec97488d6c993352742af841bdc698a2db6712
+FileChecksum: SHA256: 10a07274292143bb0757b906463d9a80799318b8adb0fb3a83d01ceb9192928f
+FileChecksum: MD5: e85c5f4ba5263a452eab599f81acedaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/npm.md
+SPDXID: SPDXRef-item361
+FileChecksum: SHA1: 52b4c891fde44824e97db93e65db234a1bc97efa
+FileChecksum: SHA256: 24a4380292bef75d6b50051a7bf9566a1c2a955d8b7bc127b0e26c9ed95902c0
+FileChecksum: MD5: d91bca3e9c7158a55fdfc76be6c7b661
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/optional/zeroTerminatedFloats.json
+SPDXID: SPDXRef-item262
+FileChecksum: SHA1: dac50eb552aa8bb46fdc594283b6b8aea7fb626c
+FileChecksum: SHA256: 0da6f9c562259d9596901c301f02b28dfa2c9ffa4b4b88a072f8a1549bbf6b3d
+FileChecksum: MD5: 0ab62d213694c958889f05d7effbe949
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: test/valgrind.supp
+SPDXID: SPDXRef-item99
+FileChecksum: SHA1: db1191c44e746fdcc14973f4e30963570e76dfbe
+FileChecksum: SHA256: 0f07925e6b106e4dce7701f1469b5181e7507f3e7256889eba09033f2fee8ac2
+FileChecksum: MD5: b78e222b9d490c47d0d351e5d652db11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/stream.zh-cn.md
+SPDXID: SPDXRef-item368
+FileChecksum: SHA1: 67901dd81bf677dac34fdd357fdae74e08992cf5
+FileChecksum: SHA256: 4c415fb897aa62054d0a099db3a2ef56530706ce70876e8cd8a70cfe9d52bb12
+FileChecksum: MD5: ba80e5d03530cab348ac5a1375b8d6aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/optional/zeroTerminatedFloats.json
+SPDXID: SPDXRef-item294
+FileChecksum: SHA1: dac50eb552aa8bb46fdc594283b6b8aea7fb626c
+FileChecksum: SHA256: 0da6f9c562259d9596901c301f02b28dfa2c9ffa4b4b88a072f8a1549bbf6b3d
+FileChecksum: MD5: 0ab62d213694c958889f05d7effbe949
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/widget.json
+SPDXID: SPDXRef-item211
+FileChecksum: SHA1: 8ed087ef6327275294ffc33fc44f72c56c9a2b2a
+FileChecksum: SHA256: 56bef82cbe54040e84c0907add9076ff2458f28c2384b058fcabc60d8366b3b9
+FileChecksum: MD5: e596731054e2e5ffd3e7ce6118c0876b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail22.json
+SPDXID: SPDXRef-item200
+FileChecksum: SHA1: d8715038d579ab570b2d5051a7c7a9d7d7651b98
+FileChecksum: SHA256: dd22ed47b00f7977a8fd058adbf448e7af9b4cf7299c8a11f21298ded07b9e03
+FileChecksum: MD5: 0b8e21b578783bcf9b91b7254b0229e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/disallow.json
+SPDXID: SPDXRef-item257
+FileChecksum: SHA1: 0338efb887db1499031a573dbd4bdf8e04381e44
+FileChecksum: SHA256: a326f0120ce2674d86280300f09ad5c6c295477f970588796c1df93745f8ab93
+FileChecksum: MD5: 7954f0848447d1ac60c8573a7f1a4174
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: .travis.yml
+SPDXID: SPDXRef-item299
+FileChecksum: SHA1: 92ff192ab1c0febf7f38160598a0faaa376fc5b1
+FileChecksum: SHA256: 480035ba0ecc949798820dae7563e259691f6e6fe05f236939e035123fd6cb5c
+FileChecksum: MD5: e4de262923cdf5c0dde2e8a7df6eb1a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/oneOf.json
+SPDXID: SPDXRef-item270
+FileChecksum: SHA1: 6772cacb066e5458a7fca9a47cfee27b56110d6b
+FileChecksum: SHA256: b59cfcf89c32b3ae136f189ae9b4caecf9928775378935c45b8afd1d2f66e761
+FileChecksum: MD5: b6723408608afaa0ee1d15246c4f952a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: CHANGELOG.md
+SPDXID: SPDXRef-item153
+FileChecksum: SHA1: 76cac8ae19b41b4e2736ffff228a8d9b94373096
+FileChecksum: SHA256: 619a137e4278179d5c2408d5eba0be8a9cf4e33363590682498ff3c1deec0b1a
+FileChecksum: MD5: 0a816033fafe15ee6115144459895bb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/move2.dot
+SPDXID: SPDXRef-item356
+FileChecksum: SHA1: bec4213e01d1e81dc5d0705b2a702b8a3802c24d
+FileChecksum: SHA256: db7af069864f4654849199b52ef5d8e4fcf647aa75de075bdfe0fe813b9f1ed2
+FileChecksum: MD5: e644603de6c140c323fa12612396c025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/types/integers.json
+SPDXID: SPDXRef-item162
+FileChecksum: SHA1: 197dcea796dbc117f44c756d1c4942216e282353
+FileChecksum: SHA256: 3258051280eeaf23df712941d1d3be3a9b286cb698cea748ae6dedb823abd8dd
+FileChecksum: MD5: 89f9f944fd797a92eda6ac17a9f9d1c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/maxItems.json
+SPDXID: SPDXRef-item253
+FileChecksum: SHA1: 580cdb7c89cd07b45f3fdadb2279bb13108b79b4
+FileChecksum: SHA256: 4adca55d27b10c1eefc7891c05f31d9dfc8f11beee2328f6370c63fec3ee13b9
+FileChecksum: MD5: bebd5f11c03fb2b5514591ba7154328d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf32lebom.json
+SPDXID: SPDXRef-item214
+FileChecksum: SHA1: 321647e67f1bb8e555d3ac7bb860da8fc79b2a5c
+FileChecksum: SHA256: 8ad1126e48ea766df49c03684bfd74a05b90e9cef2e4af24a38a56aaeb45f301
+FileChecksum: MD5: 3811416608c5a630761b4966a5ff7cfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: readme.zh-cn.md
+SPDXID: SPDXRef-item310
+FileChecksum: SHA1: 0401d86b224f080b43ed47627ed64146576a8e2b
+FileChecksum: SHA256: eec3eb567faa63fb7208d37fbb8d47de1896ad1096d3ac724947c1b5cf894707
+FileChecksum: MD5: cdc13a4d5e606c4ffe87ae5e86a6cf32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved. </text>
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail28.json
+SPDXID: SPDXRef-item180
+FileChecksum: SHA1: 64f46767e1f77127334716f2de8be4443ae90c6b
+FileChecksum: SHA256: a4a310e88adb621126f6e044f7919728d6fdf1df6a7d5a445e7215539f2ac264
+FileChecksum: MD5: 6d4a7b1b49ff2f89bdfd9d42ebc238c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/minLength.json
+SPDXID: SPDXRef-item268
+FileChecksum: SHA1: f092e02fe6648fbd1972145941739a0951e7e548
+FileChecksum: SHA256: ec7bec136ed05519b69b2e441a2e6abe9bd4e6f29f39fa0380f9395254fc050d
+FileChecksum: MD5: 5d8d5532307f96f7a19190394464ba50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf8bom.json
+SPDXID: SPDXRef-item222
+FileChecksum: SHA1: bc2236a44ddae853d74318d19eec2635991c0046
+FileChecksum: SHA256: 32bd1994b0c512f6492b6352c491c8212fcd2899392256dbc5b5f7491a627b32
+FileChecksum: MD5: 8d00ab684bce208381e39bf3a6040691
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/additionalProperties.json
+SPDXID: SPDXRef-item277
+FileChecksum: SHA1: 34478026a586b1ff8b96dbe54efdf7515099da7d
+FileChecksum: SHA256: 1e7999eadbdc57ae664394e071aa941fabb2b049a5c150bdefad858ea43fac50
+FileChecksum: MD5: e1e129fb0b7360ab93047cc254813dd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/optional/jsregex.json
+SPDXID: SPDXRef-item261
+FileChecksum: SHA1: 489105099db925ea513fdf20050c6389b868f4c5
+FileChecksum: SHA256: 09d3bac97c9998f6f0a0756a59b33881a1e36cdfca6b839acf3db220903daa99
+FileChecksum: MD5: 473f57a0c3bb94e753307a74cf2b2bae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/additionalItems.json
+SPDXID: SPDXRef-item275
+FileChecksum: SHA1: 75644b309367675ce21d8b35b9baee049a58e159
+FileChecksum: SHA256: cc023933a34d18f374934ae699cc9726733744a8de3fb96be02e85223f81366a
+FileChecksum: MD5: 980c9256771243a65d1d28ee5a88fcfd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/misc/footer.html
+SPDXID: SPDXRef-item329
+FileChecksum: SHA1: bdf730033ae0c2cbec5623e593f2931eb6b9ceab
+FileChecksum: SHA256: 8526c4a6ee0a72cff79a473fe80be068d89bb2c1c407634444c624ac9506a86a
+FileChecksum: MD5: bfc67ec517adeb65da7bfd32c67abde4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail3.json
+SPDXID: SPDXRef-item182
+FileChecksum: SHA1: 663952d3c06bd67449d7c9a0375adaab1ea384f9
+FileChecksum: SHA256: 6903daf61af5b38e0bc66d8da4f13631e2c2d03598169fe2d7c45d2504d310b9
+FileChecksum: MD5: 698e2c9d2334b79969ccd29695e93d08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/jsonx/jsonx.cpp
+SPDXID: SPDXRef-item122
+FileChecksum: SHA1: 9ecaed6244998f2b0c78000e16b5102c54176a8d
+FileChecksum: SHA256: 0e809ed1595da5f0eca6c8b21033d2d208a12a484e4137494b98ea67fe696feb
+FileChecksum: MD5: ee7be465bbcdbdfaa189dcf3d2eaba2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/move3.png
+SPDXID: SPDXRef-item355
+FileChecksum: SHA1: 70bd83ca3786e5122db68b91c6e3328aca5f3d98
+FileChecksum: SHA256: 38e82c1132e8863362ce502180178074fb5e58503b36badf110e7e49b7b0c72c
+FileChecksum: MD5: 76e3080f8c3d2fa8b9072a675513863d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/misc/header.html
+SPDXID: SPDXRef-item330
+FileChecksum: SHA1: 0e37286662dcc1f27b607a0357fdd1becaffde42
+FileChecksum: SHA256: 2d416875ed5a94bae582cd1863e01fc27fe55bbad64695b504937a66b3d40712
+FileChecksum: MD5: a4858dd7c3ef0a60dd87db6639013051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/encoding.zh-cn.md
+SPDXID: SPDXRef-item332
+FileChecksum: SHA1: f45608df34dcc79ab8b81908a51e98b5702dcf89
+FileChecksum: SHA256: 8c7222a7b966ed0922b5e8a0eedd8eb1df30fc20370001142cc2ec47403128a1
+FileChecksum: MD5: e33d988ae11a06e853447cecb5bd42e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/architecture.dot
+SPDXID: SPDXRef-item348
+FileChecksum: SHA1: 90e1a9352e42776cbdddf6e1c54e50dfedf4132b
+FileChecksum: SHA256: ed5f61d4f9b23d6721e2eb1fd6bd6720fe6f45345b1cbfcea54a5f63a901b791
+FileChecksum: MD5: 474403a0f65990241ae1ab726f754d53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/utilityclass.png
+SPDXID: SPDXRef-item339
+FileChecksum: SHA1: 0a5356ee3b67eb3615aa94acafab14b4fd3c8ef3
+FileChecksum: SHA256: 7f54dc3c14c16717258fbbbb93dc156d7c6f89ad743e50caee408cc60976a220
+FileChecksum: MD5: 8e3f9cf79c9453aef59b1e414856d6e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/type.json
+SPDXID: SPDXRef-item264
+FileChecksum: SHA1: fe8a00ae7942333ea2099c9da0f9efee6511dd71
+FileChecksum: SHA256: 263b1a7d73fa1945a85590f75f47041d33f1f1391da3b96a00e3f662a3826a3f
+FileChecksum: MD5: 04dec7c743ff718b63691f9b690c27d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/minItems.json
+SPDXID: SPDXRef-item280
+FileChecksum: SHA1: 176fedc074768c6ec5c7ceb979f23a6a4bd0be58
+FileChecksum: SHA256: f20fbbfebbb3311a12027ed2064cb4334f09b6d06642e3de0dd0a69bc4ff7ce5
+FileChecksum: MD5: d4cf8bd6e9872a992626dc6bfb9b0918
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/normalparsing.dot
+SPDXID: SPDXRef-item347
+FileChecksum: SHA1: 413a67b7bcf8e1e2ab970625fbf031af1af34806
+FileChecksum: SHA256: 20ce456c212c8fb434df0fb3f68695bb1c88df213524550137dc7822246bc1c0
+FileChecksum: MD5: e83f9f3f634b83fafaa83d620d409e3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/extends.json
+SPDXID: SPDXRef-item247
+FileChecksum: SHA1: b74a86f27d00aa8b618e4a00770d0d23e95a0b57
+FileChecksum: SHA256: 257d41d133294b4d8620b58061d4ea6d9fbcaee0dfddc09e46fb0311a88f0e7b
+FileChecksum: MD5: f369426ed4c826afe031aa858b8835de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail18.json
+SPDXID: SPDXRef-item171
+FileChecksum: SHA1: e0c632b02b243872d46819dd777bc310708bd55f
+FileChecksum: SHA256: e663fb0874bda154424bc35b9aff5f61d73d1a8cb926ccf41311827f30456997
+FileChecksum: MD5: 3f3e994f98e3bdf16417df8fae837690
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/tutorial/tutorial.cpp
+SPDXID: SPDXRef-item120
+FileChecksum: SHA1: 3246597b7430585096ba7636abbfd5af29c11d5a
+FileChecksum: SHA256: 93fbb87305badb62e3ab903a5c82b7a4c01d953d15ad0ba54a77ddf03a5a0eb4
+FileChecksum: MD5: b860b6cbc562aa0fbf18e52da9230aab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/maximum.json
+SPDXID: SPDXRef-item285
+FileChecksum: SHA1: c205edb4c5bd171c9e1f4955f5cc3b94ca78cb0c
+FileChecksum: SHA256: f2cf731dabcdacd9c2f3bb0af9e67aa47b75c63f03d22939e0d400f92405e488
+FileChecksum: MD5: abb73d142c1c75485050ef91709bb371
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/iterative-parser-states-diagram.dot
+SPDXID: SPDXRef-item337
+FileChecksum: SHA1: a9a26a574343a0821b1811dbb60e2b5ca7937e1b
+FileChecksum: SHA256: 79a32edb930120f4b403ae4c6483e1e05aff57f91d59e5bf610c3382e4684e61
+FileChecksum: MD5: ac39eae96870802e508f8047429b5773
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/.travis.yml
+SPDXID: SPDXRef-item227
+FileChecksum: SHA1: d8d5771a554fb7fe15bd79fb149cdbc27f3bcbc9
+FileChecksum: SHA256: 482c6feb44a261b16ec6491f23da1f4bdae0b26f75f4f6383000290afa2e8d04
+FileChecksum: MD5: 513c41a11e5fa3566ff8165374332b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail7.json
+SPDXID: SPDXRef-item195
+FileChecksum: SHA1: 195f52e867d83ea304574c86556b486e45ad8f31
+FileChecksum: SHA256: d9b01bb868ba4a6156085744bddf7acf119125aaf40e19e404b284e99b1973e0
+FileChecksum: MD5: c72ce188fc9a8a12414cf991b72ec3de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/default.json
+SPDXID: SPDXRef-item251
+FileChecksum: SHA1: 17c051cc94a9fb40ad627b04a41d7dce9150e3b5
+FileChecksum: SHA256: 37e0350cc4d4d6c5f0de3ca829cff1e4ae4d4e2716ddf3b8cb807a80f8e19876
+FileChecksum: MD5: 4f3bd88b64444847111661a0b3c4c2d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: CMakeModules/FindGTestSrc.cmake
+SPDXID: SPDXRef-item106
+FileChecksum: SHA1: f82c422d5d8390fba2016971cb28db341bba5cd9
+FileChecksum: SHA256: 3ae4c863b93ce145efa5845a9a1fb87e006219c2b0bf6d3971726d950ffc2e2d
+FileChecksum: MD5: 927a738ec4a45cb2e73fe896238b5980
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/normalparsing.png
+SPDXID: SPDXRef-item346
+FileChecksum: SHA1: 9f4c953435a8bb8b51b9f7e58735bdfde7ebe9bd
+FileChecksum: SHA256: c34f8fc25b7077861dbf8bd67f437afe9f373f0312ae61e9e53ee9d7927e9d32
+FileChecksum: MD5: 8ec64844e11a1e4aca3fa8d722777cc5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail27.json
+SPDXID: SPDXRef-item190
+FileChecksum: SHA1: 3b673cb808d42a44a3128150e41005f1332b8294
+FileChecksum: SHA256: 4a6ce093f89d76306dc76ccb5f6e468fb95c189eaa16d6b6c80954c21b3be635
+FileChecksum: MD5: 69041a5973c6d43ede3891b01d28fa48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: .gitignore
+SPDXID: SPDXRef-item312
+FileChecksum: SHA1: c27151507322dae223f9a8aa3b666aa0d0707841
+FileChecksum: SHA256: 00949e3a9beaeb40cff48b3bf54907427837a7f9adf01dfcabb4f63f964f6ae9
+FileChecksum: MD5: 03f832328f9e6f971e36dcc7453e9aa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: appveyor.yml
+SPDXID: SPDXRef-item16
+FileChecksum: SHA1: 031c8e26b155b53f868b773ebc27a1953fd9f221
+FileChecksum: SHA256: faaab45f1056338a208efec40cbd520e6f5d93501c5d1812067d3ab4434e588e
+FileChecksum: MD5: 13fe690b41f52682e6e4c846fd31efe1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail31.json
+SPDXID: SPDXRef-item179
+FileChecksum: SHA1: eca7e126cc9c9796bc8fc8f23ec1b43534e6b78b
+FileChecksum: SHA256: 25981c42fdd25646ab17d57bfaa65e4b2d7b791fdf13840e75c5a9e8f66dec70
+FileChecksum: MD5: e8e67ebbbad29d6248aba51f4b346862
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/type.json
+SPDXID: SPDXRef-item297
+FileChecksum: SHA1: fef0b779cc317c2c2284c18653cd417840c24a9b
+FileChecksum: SHA256: bff6b02ad3409a50ecb83c5f7c474c92a4ce31ab7dfbe6e544cb2094dc694807
+FileChecksum: MD5: 6d39043f439af6b34a05d68bb3055dc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/messagereader/messagereader.cpp
+SPDXID: SPDXRef-item138
+FileChecksum: SHA1: b037fe55c3285c038b38a1b1460f9c723abc8e97
+FileChecksum: SHA256: 2318a88e29553f8b804a96771c6e206a5163ea0f2051d4cb31a44e9fd791ad7c
+FileChecksum: MD5: ce01a3df8636bae5bacc877e90f6817e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/refRemote.json
+SPDXID: SPDXRef-item242
+FileChecksum: SHA1: ef0c43623cad9a3ceb7b407272062ca55c1c9c7e
+FileChecksum: SHA256: 6b68176b94b3532cdfe51a51507e5b640ceb87398bf429bd1945b1a55f72b538
+FileChecksum: MD5: ed65fbbd7ee3319249479ecff8a42809
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: contrib/natvis/README.md
+SPDXID: SPDXRef-item305
+FileChecksum: SHA1: 5187430f33da2895fe05a00497fe46a00dadc60d
+FileChecksum: SHA256: 1e141a28bb5fc8f22445b1c323ac4cd62a5cc3b2f738a4daccffe6601df0b12a
+FileChecksum: MD5: 77a401c4f69c0da355ee910d847b3bcf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/menu.json
+SPDXID: SPDXRef-item209
+FileChecksum: SHA1: c419de86dd89c008fc55941a14351065369aa77c
+FileChecksum: SHA256: 0f1b715e4cffd0844443cd3e35eb656f2ee80ac46013703b41662212d3a30c3c
+FileChecksum: MD5: bf7b2af56e9e1f993771bc281382f8c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/stream.md
+SPDXID: SPDXRef-item320
+FileChecksum: SHA1: 4133f748a983795ef5ba1fb2463bb3ce1f30349b
+FileChecksum: SHA256: eb30e3e981175c3d97387ecb76db519cdcc05dfa60cbda0bd9702e15c4a0b3bf
+FileChecksum: MD5: 16848e3475ab8a95f8b2e4d103a67ac7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/move3.dot
+SPDXID: SPDXRef-item342
+FileChecksum: SHA1: 6db2d097bf47dd072877a072dfdcc44f17b0d147
+FileChecksum: SHA256: a69fba0f3728e87c7473cd250aaf49b99be957bb2cb46d5d736c3272cef04d55
+FileChecksum: MD5: a07d4f846623575a4ab87cfe86f0633a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/Doxyfile.in
+SPDXID: SPDXRef-item364
+FileChecksum: SHA1: 22357019dcd095c93010bbaa762cc460b3ab731c
+FileChecksum: SHA256: bae1aae4b7129ec95c38d5f1a6a0d7afd50bed8b46c94b794b0e35441f7a4f27
+FileChecksum: MD5: a53862930fc76b052b78c6f1871e2d95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/allOf.json
+SPDXID: SPDXRef-item274
+FileChecksum: SHA1: e98aea1d36d932870561f0c32c32fc5858f251f9
+FileChecksum: SHA256: 3bc02ea1b18622036bbd94e7202057e0eb237821796c96511714b3ecbcf8e1b4
+FileChecksum: MD5: 0a705377622763c235f8b7c6d87f06d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail12.json
+SPDXID: SPDXRef-item175
+FileChecksum: SHA1: 7b6e707f33baa415151a6d70cc0a688dd6902719
+FileChecksum: SHA256: 8033711342b67e573d96916fd820730a0a12ee291bd2e4ae324df3455c3f825f
+FileChecksum: MD5: 48cd28fa8137d02cf00eec5e0b0cc911
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/features.zh-cn.md
+SPDXID: SPDXRef-item323
+FileChecksum: SHA1: 7ffa5ccb0fd18b96aea6f1e12ead2ffb128666f3
+FileChecksum: SHA256: 2ccb82fd8e4ed8239c1ba0d92010d269bca883cabe5aea5608f0f66997ce9d14
+FileChecksum: MD5: 84f380853224246c5814e4ccf055d168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> © RapidJSON 检查是否所有 JSON 字符串是合法的 UTF-8 字节序列。
+© RapidJSON 把 JSON 字符串转换至 UTF-16 的 DOM。 </text>
+ 
+
+##File
+
+FileName: doc/sax.md
+SPDXID: SPDXRef-item322
+FileChecksum: SHA1: 54e54daad885d69b322f048df139669d15233734
+FileChecksum: SHA256: b97355e42e3860e282163f8bf2fd48fae34d5ee7a7efd5e7dfda5a9c46f06efd
+FileChecksum: MD5: ea4eef6f860dd28fa7fd42a899256a35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/capitalize/capitalize.cpp
+SPDXID: SPDXRef-item110
+FileChecksum: SHA1: 5479052b30b56128920ed1dffd2942517b806f17
+FileChecksum: SHA256: c48565ad9fafa7009f95c1f2d16f2fb843a0d97a2f99ee818440b277d334cec6
+FileChecksum: MD5: d9c18583755d5bea66528b87d79c8f3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/glossary.json
+SPDXID: SPDXRef-item208
+FileChecksum: SHA1: 9e97e199bfd5804fd8a870bcf4c9308f1e323cf8
+FileChecksum: SHA256: 57014d9c253ec0e8b36d1999fa0718b8dc2f2c29a1a58ac3ae34ebb653fd7e0f
+FileChecksum: MD5: ab9b7b2c58d3a481e172aea95b1e87a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/maxProperties.json
+SPDXID: SPDXRef-item276
+FileChecksum: SHA1: 1703d6ef976a74eae8ea6cd21c131853c6ca5f6c
+FileChecksum: SHA256: 31b1716cce0ae84e5ac85fe08e0d7260c8d1e81a5fc6e93bc92a2a65321a1127
+FileChecksum: MD5: 06efef34fd3581e2ae81ef4b735d7f7e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/maxItems.json
+SPDXID: SPDXRef-item286
+FileChecksum: SHA1: 580cdb7c89cd07b45f3fdadb2279bb13108b79b4
+FileChecksum: SHA256: 4adca55d27b10c1eefc7891c05f31d9dfc8f11beee2328f6370c63fec3ee13b9
+FileChecksum: MD5: bebd5f11c03fb2b5514591ba7154328d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/remotes/integer.json
+SPDXID: SPDXRef-item230
+FileChecksum: SHA1: 8f6fb865eb29957c5bfb7421004b2e3167642f90
+FileChecksum: SHA256: 5409ac74ef1225a78c51025c707b7c3b68439e64bfb760dcfca6b2b8d0fd8038
+FileChecksum: MD5: d09e79c2cac61ab1f98de488f12336ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail23.json
+SPDXID: SPDXRef-item199
+FileChecksum: SHA1: 80716da97473e0c15671fe9904589427fa0e48e0
+FileChecksum: SHA256: 5b746985dd2a3406e0d457dc38583b5ed26c2691950a10e1e50049a93c924a78
+FileChecksum: MD5: e42ae0624e6ef2a76a702f304ec69537
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/simpledom.dot
+SPDXID: SPDXRef-item341
+FileChecksum: SHA1: 7077d91a7c83cecd013057b3690a91c827cd1a5f
+FileChecksum: SHA256: a63239b8444d3329cf981c3a272d694159ddbf6f82787203d7e11af540e74fb8
+FileChecksum: MD5: 9f3c5fc7f25d8362e0c9c27e4fdd95b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/minLength.json
+SPDXID: SPDXRef-item238
+FileChecksum: SHA1: f092e02fe6648fbd1972145941739a0951e7e548
+FileChecksum: SHA256: ec7bec136ed05519b69b2e441a2e6abe9bd4e6f29f39fa0380f9395254fc050d
+FileChecksum: MD5: 5d8d5532307f96f7a19190394464ba50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/features.md
+SPDXID: SPDXRef-item365
+FileChecksum: SHA1: 942ef51d60a2578f48b280573d73bb13dad94d30
+FileChecksum: SHA256: 5ee5e47dfc516b21bccd0deef78651482a93e56e72f007f580395dd80ef490b8
+FileChecksum: MD5: 49b7738d71b793f6e83a98bd05e90e7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/optional/format.json
+SPDXID: SPDXRef-item293
+FileChecksum: SHA1: 005c3491cda509d6f55d0cd1c3660600971e0cb4
+FileChecksum: SHA256: e2cec2bc6f02f1e79bfe1e0f3547869cc05f2f70196e776662bf0d4bc195daa6
+FileChecksum: MD5: 54dd827a2dfe56e480c9043b8a27cd40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: library.json
+SPDXID: SPDXRef-item307
+FileChecksum: SHA1: e9b12efb2072651beb40c0b0994a6a198a4a9e87
+FileChecksum: SHA256: 2040e59bb9338a5905b2ee5edea324d954e04017dccb0347d1e84154237ce6e9
+FileChecksum: MD5: b6c284c06bfb2a063622c3c9de595e83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/filterkey/filterkey.cpp
+SPDXID: SPDXRef-item149
+FileChecksum: SHA1: 36de271f15191dd333cd1e60356a09a8e30f3222
+FileChecksum: SHA256: 7007880210c653d36be5ad8fe0b2fae61c9b188154d21e2a24566b8b3ed0d98f
+FileChecksum: MD5: fd11c057e24e6250e0d45826a28a00f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/enum.json
+SPDXID: SPDXRef-item287
+FileChecksum: SHA1: 4b96cc24245950f9fad0916113a5056d9f51c2e5
+FileChecksum: SHA256: 245bc40854457d5e278c7a85dc7dc3f1f7f6a3814c1ac36730595aa78ad739c8
+FileChecksum: MD5: b00b620013b869642a61da5ba84f0ec7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/draft-04/schema
+SPDXID: SPDXRef-item165
+FileChecksum: SHA1: 9e8c49d51e4128cfd685841a9185395c33675e85
+FileChecksum: SHA256: 7353ff13faa979027813b95c8b35f992057822696a70c43c79b3bfb7249e76b4
+FileChecksum: MD5: 6857f5dc452405f8e457e98833b4cd7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail26.json
+SPDXID: SPDXRef-item187
+FileChecksum: SHA1: 0a1a2796e3db4f4f2acb05f7d5d415212207a403
+FileChecksum: SHA256: 032ff03c5b7bf611b5015000312a290b6fa7878ccb508c5ed5cc73cb2b649179
+FileChecksum: MD5: e732685a5d4a6a21b2a03da7564de675
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/properties.json
+SPDXID: SPDXRef-item245
+FileChecksum: SHA1: 1aacdf890a9b844c7275f6ad2f3acc2f9100219c
+FileChecksum: SHA256: 10df6e99c89fefd96e8a2b3b25dee4adc0964b1def2175fa513c775ed8d41a64
+FileChecksum: MD5: 02b8d4206d3718d46ddda7fdaf42018f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail13.json
+SPDXID: SPDXRef-item181
+FileChecksum: SHA1: accf6292f64ffde5056887aace56c219b4a1f15c
+FileChecksum: SHA256: a9235f6b3a47a700d45a8cba0c0b01b62ed4b2fd8a0f10cfe7964bde5e8cc1e0
+FileChecksum: MD5: 8eb5f1e84eec9f1ca21b98bfc6457215
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/filterkeydom/filterkeydom.cpp
+SPDXID: SPDXRef-item114
+FileChecksum: SHA1: 6e7080d35a96de6dbf569eef12f2cf4fd96ade2f
+FileChecksum: SHA256: da77547b255d0dcefa1070d6529d9c47ff29fff9b260318e43942e040740f315
+FileChecksum: MD5: 70b7906be689d1e5d767694999501d25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail19.json
+SPDXID: SPDXRef-item197
+FileChecksum: SHA1: e1a097a7456e1c4557b9e16bc8ceb1f3457361ac
+FileChecksum: SHA256: f262f8944e9f4346e80ccab07d2cc74f95928193210bc7a95c634f665f105b03
+FileChecksum: MD5: 3a93f1d8bfdf2f8b7dc8f7fd7c58787d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/maxLength.json
+SPDXID: SPDXRef-item281
+FileChecksum: SHA1: a7de803a65a643219a2fd9391f0e019b5dd23bcb
+FileChecksum: SHA256: 6b59c08a3c6bec799cd4917915d046407f4aaa2c8debc0b14eae7fa20511736d
+FileChecksum: MD5: aae64c2cb55de988ec70717bae90fa5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: include_dirs.js
+SPDXID: SPDXRef-item301
+FileChecksum: SHA1: da5a327d8b5a1c3ef4ee87ce225c501cd5a4ac24
+FileChecksum: SHA256: 54f65d80e3c9f90de66cdc1d4cdcc1c68e38b74af48d4dcf46f85fe69f9cb6b7
+FileChecksum: MD5: e059ae6ffa60c07432e614d33214167d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/readme.txt
+SPDXID: SPDXRef-item205
+FileChecksum: SHA1: e33de69928ef2fd5fe5c73a6781e4d6e70732496
+FileChecksum: SHA256: 48204ba240c02624400ffcc03572e9da66d3e4f94b31fa19a64b82ef659cd577
+FileChecksum: MD5: 7865785b57dcb20bece0f5db8da473ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/prettyauto/prettyauto.cpp
+SPDXID: SPDXRef-item124
+FileChecksum: SHA1: 108fe49e228f721e14b69131dca1d0e64cab8dd7
+FileChecksum: SHA256: a0d1b93f5324a46dfffaeaa8a8bee4d79d3d06025b5f6507a3d2b9c7a5933584
+FileChecksum: MD5: d8d71f6b52bd3c636998cd5677fd369b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/CMakeLists.txt
+SPDXID: SPDXRef-item359
+FileChecksum: SHA1: 8433032b25d6a86689cb767e254e7e4e4d42ca6d
+FileChecksum: SHA256: 5d08339b7bd8ecb44f117e61f98248c8b4c5d7a39b58c9cc333215475f59486a
+FileChecksum: MD5: b2a019b4e260e9ef411483880b9b8b20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/dom.md
+SPDXID: SPDXRef-item333
+FileChecksum: SHA1: 698151ae9a7813e330864a281f412ed1a48583bd
+FileChecksum: SHA256: a5a91328dd3ee3745fab561a800944fef9b8ded0f65e1368786d6402a2b431e4
+FileChecksum: MD5: 52b1ee1f000f9d8b5c9e5d28030b199a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail16.json
+SPDXID: SPDXRef-item185
+FileChecksum: SHA1: 72fb4cbc8ec96b9f52eb105bc6eca271866b42aa
+FileChecksum: SHA256: 4514053448b28818d0d23041242b0e1705ea0bbf9f2ee84694d4e0100bd90cc4
+FileChecksum: MD5: b4e9c2c3d88bc98112a37fa45d07553b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft3/dependencies.json
+SPDXID: SPDXRef-item265
+FileChecksum: SHA1: b64e0240af6ccacfeee6359d31ad9eeb73061ab2
+FileChecksum: SHA256: a46ce7b9c905ae8c009fa8897c46b8f71dc76fd217112746b3c182794811d979
+FileChecksum: MD5: d31cce06719c42550f1f4a46b63cb746
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/definitions.json
+SPDXID: SPDXRef-item290
+FileChecksum: SHA1: 0963ac4f014a0faf6ad37554c9af03f63dad9b02
+FileChecksum: SHA256: a912c8584563f08434719989d6a7148badee33d90f49b172317860fe309c13c2
+FileChecksum: MD5: eafc672147e7ab3d29a30a2124c607b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf32bebom.json
+SPDXID: SPDXRef-item213
+FileChecksum: SHA1: a438f995ed80ffe34c500b22ab7984266590dd8e
+FileChecksum: SHA256: 8750eb3c597d0c671660a3c98ce51abab108aacf7224eda2e9bdf15a8957a9a3
+FileChecksum: MD5: 3976a9c8ecfcd3323dea293f886e2e11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/Doxyfile.zh-cn.in
+SPDXID: SPDXRef-item318
+FileChecksum: SHA1: bc1a96cc2fe8bab6f3a8f5f6c836b1a11fd96980
+FileChecksum: SHA256: 290faef6c04e08306462e22915fb88bcd425b90d38e177f6412195a4cb5ea542
+FileChecksum: MD5: 0a95d431cbb89495934773834ec2855c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-See-doc.OTHER
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail20.json
+SPDXID: SPDXRef-item189
+FileChecksum: SHA1: 53b8a7f2396711811d8aecde828168924e21e7b4
+FileChecksum: SHA256: beff780d4797749a6180792d96de68b52eafbe3558578e2486b51c0fc384d3f0
+FileChecksum: MD5: 6480149c5c6d7c9fe662869fd90c75f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/pass3.json
+SPDXID: SPDXRef-item168
+FileChecksum: SHA1: 3e8bacbb5365e71e13dd2d81b913e83de718b1df
+FileChecksum: SHA256: 45aaef317f170e5490aa4a18cc301f6d5e03ee617980dec1b15403abf6c537f4
+FileChecksum: MD5: b8fda1c2266f683b51d1a7e3fabc8875
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: example/archiver/archivertest.cpp
+SPDXID: SPDXRef-item136
+FileChecksum: SHA1: 50159998cab74dc22400743c7f0e37a3858d2338
+FileChecksum: SHA256: bf855754fe39c84ff29a55f4317ef028d5a8815b06ee6b509b7a4221375bfba4
+FileChecksum: MD5: 4d6a6f3aa9c6b9c2c65120c2d36a16e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/tests/draft4/optional/bignum.json
+SPDXID: SPDXRef-item292
+FileChecksum: SHA1: 32b70fb2c2156c979702eec5c18a86c1fe6d0bd7
+FileChecksum: SHA256: 4bbe93617efeedc563ea45739cbd3a76821e60d572ed8c8d59fbf3467920e2b8
+FileChecksum: MD5: 7672d6652bedfb94d7779980f996bc67
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/data/sample.json
+SPDXID: SPDXRef-item206
+FileChecksum: SHA1: c2f367d3f8e03bb972d5a172a3b94aa024776922
+FileChecksum: SHA256: 9a56aaca1ad7363e1c7852ad12a336980e789db91bd9aabad64eea702320ab6f
+FileChecksum: MD5: 2b2cf1f72f00fea6dcad8585a9f8f4e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonschema/remotes/folder/folderInteger.json
+SPDXID: SPDXRef-item233
+FileChecksum: SHA1: 8f6fb865eb29957c5bfb7421004b2e3167642f90
+FileChecksum: SHA256: 5409ac74ef1225a78c51025c707b7c3b68439e64bfb760dcfca6b2b8d0fd8038
+FileChecksum: MD5: d09e79c2cac61ab1f98de488f12336ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/diagram/makefile
+SPDXID: SPDXRef-item349
+FileChecksum: SHA1: 6917363f48e350894c379f4275b84523ecb2486f
+FileChecksum: SHA256: d7afa71dc4888cf2a44ffee886126f0c2b245856914ed86afde0bea651b3efb0
+FileChecksum: MD5: 150d61aca05a20e7c4726e2694c23c2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/pointer.md
+SPDXID: SPDXRef-item360
+FileChecksum: SHA1: d9e29b8f0aa3d0a26ff8a8b57bcac7e9a88ef23d
+FileChecksum: SHA256: 164a75a32768b42366bea514f6a0e4355c85e7468d3da3529981eb2d310cd2ec
+FileChecksum: MD5: 3d2c75edd848af223159a5da9b05bde6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: doc/dom.zh-cn.md
+SPDXID: SPDXRef-item363
+FileChecksum: SHA1: dcc0f2a4bda8c69bff1fbf7755cb80247e54a28c
+FileChecksum: SHA256: 34b8a5cf2b002d3a076da18f7e05959af483a5e5c5a031cfa4ca0da4ae82d2c7
+FileChecksum: MD5: 95b51144c07b7e4e301b47af70d59ab6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: RapidJSONConfig.cmake.in
+SPDXID: SPDXRef-item309
+FileChecksum: SHA1: 65f640cdacce427d331d3517fb51757f71f054f4
+FileChecksum: SHA256: 461d5f71b4478b7590cf3a07abf9a3bf5fe2bee3a17d577380161c2c067fa8ef
+FileChecksum: MD5: 302b57e4dd07f770b30016da414ff2de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/encodings/utf8.json
+SPDXID: SPDXRef-item218
+FileChecksum: SHA1: 8b4d60eb17978b9bf632c3cae9824aca8f248d4e
+FileChecksum: SHA256: 8eea6d445d69a80c8eaa9bd6351d50b3d60715ef9a6ae04696688961ff8dfb31
+FileChecksum: MD5: 33eebf1c44ff10a46577c204abb7bfb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: bin/jsonchecker/fail9.json
+SPDXID: SPDXRef-item196
+FileChecksum: SHA1: ea46b78734d92bc2b476e8a1a20b1024279d95af
+FileChecksum: SHA256: a3a4796b5ddb6c80e894113c690a75e5290ef109601dee2e277f652bc6d6a163
+FileChecksum: MD5: 4553de7b614ab47bd79700be31e138bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+LicenseID: LicenseRef-See-doc.OTHER
+LicenseName: See-doc.OTHER
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-See-URL
+LicenseName: See-URL
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
