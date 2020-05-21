@@ -1,6 +1,6 @@
 {
   "name": "spdx-typescript",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Parse SPDX-report to typed JS object.",
   "repository": {
     "type": "git",
