@@ -2,6 +2,14 @@
   "name": "spdx-typescript",
   "version": "0.2.0",
   "description": "Parse SPDX-report to typed JS object.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmurto/spdx-typescript.git"
+  },
+  "homepage": "https://github.com/mmurto/spdx-typescript",
+  "bugs": {
+    "url": "https://github.com/mmurto/spdx-typescript/issues"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
