@@ -89,6 +89,7 @@ interface ISpdxHasFileItem {
     };
     'spdx:licenseInfoInFile': ISpdxLicenseInfoInFileItem[];
     'spdx:copyrightText': string;
+    'spdx:licenseComments': string;
   };
 }
 interface ISpdxMemberItem {

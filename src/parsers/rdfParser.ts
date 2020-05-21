@@ -182,7 +182,7 @@ export const parseRdfSPDX = (input: any): SPDX => {
         ].map((e) => {
           return removeLicenseUri(removeNamespace(e['rdf:resource']));
         }),
-        // commentsOnLicense
+        commentsOnLicense: file['spdx:File']['spdx:licenseComments'],
         copyrightText: file['spdx:File']['spdx:copyrightText'],
         // fileComment
         // fileNotice
