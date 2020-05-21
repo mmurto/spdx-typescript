@@ -28,6 +28,7 @@ describe('rdfParser', () => {
   it('parses the file', () => {
     expect(typeof testProjectSpdx).toBe('object');
   });
+
   describe('parses correct', () => {
     describe('document creation information', () => {
       it('spdx version', () => {
@@ -38,6 +39,7 @@ describe('rdfParser', () => {
           'SPDX-2.1'
         );
       });
+
       it('data licenses', () => {
         expect(testProjectSpdx.documentCreationInformation.dataLicense).toEqual(
           'CC0-1.0'
@@ -46,6 +48,7 @@ describe('rdfParser', () => {
           'CC0-1.0'
         );
       });
+
       it('spdx identifier', () => {
         expect(
           testProjectSpdx.documentCreationInformation.SPDXIdentifier
@@ -54,6 +57,7 @@ describe('rdfParser', () => {
           realWorldSpdx.documentCreationInformation.SPDXIdentifier
         ).toEqual('SPDXRef-DOCUMENT');
       });
+
       it('document name', () => {
         expect(
           testProjectSpdx.documentCreationInformation.documentName
@@ -62,6 +66,7 @@ describe('rdfParser', () => {
           '/srv/fossology/repository/report'
         );
       });
+
       it('spdx document namespace', () => {
         expect(
           testProjectSpdx.documentCreationInformation.SPDXDocumentNamespace
@@ -74,11 +79,16 @@ describe('rdfParser', () => {
           'http://679b29ee9838/repo/SPDX2_rapidjson_1589967094-spdx.rdf'
         );
       });
-      /*
-        it('external document references', () => {
-  
-        })
-        */
+
+      it('external document references', () => {
+        expect(
+          testProjectSpdx.documentCreationInformation.externalDocumentReferences
+        ).toEqual(undefined);
+        expect(
+          realWorldSpdx.documentCreationInformation.externalDocumentReferences
+        ).toEqual(undefined);
+      });
+
       it('license list version', () => {
         expect(
           testProjectSpdx.documentCreationInformation.licenseListVersion
@@ -87,6 +97,7 @@ describe('rdfParser', () => {
           realWorldSpdx.documentCreationInformation.licenseListVersion
         ).toEqual('2.6');
       });
+
       it('creator', () => {
         expect(
           testProjectSpdx.documentCreationInformation.creator.organization
@@ -107,6 +118,7 @@ describe('rdfParser', () => {
           'spdx2'
         );
       });
+
       it('created', () => {
         expect(testProjectSpdx.documentCreationInformation.created).toEqual(
           '2020-05-20T06:31:39Z'
@@ -115,14 +127,16 @@ describe('rdfParser', () => {
           '2020-05-20T09:31:35Z'
         );
       });
+
       it('creator comment', () => {
         expect(
           testProjectSpdx.documentCreationInformation.creatorComment
         ).toEqual(undefined);
+        expect(
+          realWorldSpdx.documentCreationInformation.creatorComment
+        ).toEqual(undefined);
       });
-      expect(realWorldSpdx.documentCreationInformation.creatorComment).toEqual(
-        undefined
-      );
+
       it('document comment', () => {
         expect(
           testProjectSpdx.documentCreationInformation.documentComment
@@ -142,11 +156,11 @@ describe('rdfParser', () => {
         expect(testProjectSpdx.packageInformation.packageName).toEqual(
           'test_project.tar.gz'
         );
-
         expect(realWorldSpdx.packageInformation.packageName).toEqual(
           'rapidjson'
         );
       });
+
       it('package spdx identifier', () => {
         expect(
           testProjectSpdx.packageInformation.packageSPDXIdentifier
@@ -155,6 +169,7 @@ describe('rdfParser', () => {
       expect(realWorldSpdx.packageInformation.packageSPDXIdentifier).toEqual(
         'SPDXRef-upload3'
       );
+
       it('package version', () => {
         expect(testProjectSpdx.packageInformation.packageVersion).toEqual(
           undefined
@@ -163,6 +178,7 @@ describe('rdfParser', () => {
           undefined
         );
       });
+
       it('package file name', () => {
         expect(testProjectSpdx.packageInformation.packangeFileName).toEqual(
           'test_project.tar.gz'
@@ -171,16 +187,25 @@ describe('rdfParser', () => {
           'rapidjson'
         );
       });
-      /*
-          it('package supplied', () => {
-    
-          })
-          */
-      /*
-          it('package originator', () => {
-    
-          });
-          */
+
+      it('package supplier', () => {
+        expect(testProjectSpdx.packageInformation.packageSupplier).toEqual(
+          undefined
+        );
+        expect(realWorldSpdx.packageInformation.packageSupplier).toEqual(
+          undefined
+        );
+      });
+
+      it('package originator', () => {
+        expect(testProjectSpdx.packageInformation.packageOriginator).toEqual(
+          undefined
+        );
+        expect(realWorldSpdx.packageInformation.packageOriginator).toEqual(
+          undefined
+        );
+      });
+
       it('package download location', () => {
         expect(
           testProjectSpdx.packageInformation.packageDownloadLocation
@@ -188,13 +213,17 @@ describe('rdfParser', () => {
         expect(
           realWorldSpdx.packageInformation.packageDownloadLocation
         ).toEqual('noassertion');
-
-        /*
-          it('files analyzed', () => {
-    
-          })
-          */
       });
+
+      it('files analyzed', () => {
+        expect(testProjectSpdx.packageInformation.filesAnalyzed).toEqual(
+          undefined
+        );
+        expect(realWorldSpdx.packageInformation.filesAnalyzed).toEqual(
+          undefined
+        );
+      });
+
       it('package verification code', () => {
         expect(
           testProjectSpdx.packageInformation.packageVerificationCode
@@ -203,6 +232,7 @@ describe('rdfParser', () => {
           realWorldSpdx.packageInformation.packageVerificationCode
         ).toEqual('3dec3f199716e1ce913bd6d33d409ab49b088b90');
       });
+
       it('package checksum', () => {
         expect(
           testProjectSpdx.packageInformation.packageChecksum?.SHA1
@@ -227,6 +257,7 @@ describe('rdfParser', () => {
           '53c4ad957761867e4b76957861b6cd2e'
         );
       });
+
       it('package home page', () => {
         expect(testProjectSpdx.packageInformation.packageHomePage).toEqual(
           undefined
@@ -235,6 +266,7 @@ describe('rdfParser', () => {
           undefined
         );
       });
+
       it('source information', () => {
         expect(testProjectSpdx.packageInformation.sourceInformation).toEqual(
           undefined
@@ -243,6 +275,7 @@ describe('rdfParser', () => {
           undefined
         );
       });
+
       it('concluded license', () => {
         expect(testProjectSpdx.packageInformation.concludedLicense).toEqual([
           'noassertion',
@@ -251,14 +284,16 @@ describe('rdfParser', () => {
           'MIT',
         ]);
       });
+
       it('all licenses information from files', () => {
         expect(
           testProjectSpdx.packageInformation.allLicensesInformationFromFiles
         ).toEqual('noassertion');
         expect(
           realWorldSpdx.packageInformation.allLicensesInformationFromFiles
-        ).toEqual('TOBEDONE');
+        ).toEqual('noassertion');
       });
+
       it('declared license', () => {
         expect(testProjectSpdx.packageInformation.declaredLicense).toEqual(
           'noassertion'
@@ -267,6 +302,7 @@ describe('rdfParser', () => {
           'noassertion'
         );
       });
+
       it('comments on license', () => {
         expect(testProjectSpdx.packageInformation.commentsOnLicense).toContain(
           'licenseInfoInFile determined by Scanners:'
@@ -293,6 +329,7 @@ describe('rdfParser', () => {
           '- ojo ("3.8.0-33-g513964327".513964)'
         );
       });
+
       it('copyright text', () => {
         expect(testProjectSpdx.packageInformation.copyrightText).toEqual(
           'noassertion'
@@ -301,6 +338,7 @@ describe('rdfParser', () => {
           'noassertion'
         );
       });
+
       it('package summary description', () => {
         expect(
           testProjectSpdx.packageInformation.packageSummaryDescription
@@ -309,6 +347,7 @@ describe('rdfParser', () => {
           realWorldSpdx.packageInformation.packageSummaryDescription
         ).toEqual(undefined);
       });
+
       it('package detailed description', () => {
         expect(
           testProjectSpdx.packageInformation.packageDetailedDescription
@@ -317,6 +356,7 @@ describe('rdfParser', () => {
           realWorldSpdx.packageInformation.packageDetailedDescription
         ).toEqual(undefined);
       });
+
       it('package comment', () => {
         expect(testProjectSpdx.packageInformation.packageComment).toEqual(
           undefined
@@ -325,6 +365,7 @@ describe('rdfParser', () => {
           undefined
         );
       });
+
       it('external references', () => {
         expect(testProjectSpdx.packageInformation.externalReference).toEqual(
           undefined
@@ -333,6 +374,7 @@ describe('rdfParser', () => {
           undefined
         );
       });
+
       it('external reference comment', () => {
         expect(
           testProjectSpdx.packageInformation.externalReferenceComment
@@ -342,19 +384,23 @@ describe('rdfParser', () => {
         ).toEqual(undefined);
       });
     });
+
     describe('file information', () => {
       it('file name', () => {
         expect(testProjectFile1.fileName).toEqual('test_project/README.md');
         expect(realWorldFile1.fileName).toEqual('license.txt');
       });
+
       it('file spdx identifier', () => {
         expect(testProjectFile1.fileSPDXIdentifier).toEqual('SPDXRef-item10');
         expect(realWorldFile1.fileSPDXIdentifier).toEqual('SPDXRef-item311');
       });
+
       it('file type', () => {
         expect(testProjectFile1.fileType).toEqual(undefined);
         expect(realWorldFile1.fileType).toEqual(undefined);
       });
+
       it('file checksum', () => {
         expect(testProjectFile1.fileChecksum.SHA1).toEqual(
           'b8e902bece30cfc21302df7673b27d728dd8d815'
@@ -375,6 +421,7 @@ describe('rdfParser', () => {
           'ba04aa8f65de1396a7e59d1d746c2125'
         );
       });
+
       it('concluded license', () => {
         expect(testProjectFile1.concludedLicense).toEqual(['MIT']);
         expect(testProjectFile3.concludedLicense).toEqual([]);
@@ -383,6 +430,7 @@ describe('rdfParser', () => {
         );
         expect(realWorldFile2.concludedLicense.sort()).toEqual(['ISC'].sort());
       });
+
       it('license information in file', () => {
         expect(testProjectFile1.licenseInformationInFile).toEqual([
           'NOASSERTION',
@@ -393,6 +441,7 @@ describe('rdfParser', () => {
         );
         expect(realWorldFile2.licenseInformationInFile).toEqual(['ISC']);
       });
+
       it('comments on license', () => {
         expect(testProjectFile1.commentsOnLicense).toEqual(
           'Comment on MIT in README'
@@ -401,6 +450,7 @@ describe('rdfParser', () => {
           'A comment on BSD-3-Clause AND A comment on JSON AND NOASSERTION'
         );
       });
+
       it('copyright text', () => {
         expect(testProjectFile2.copyrightText).toEqual(
           'CopyrightText: 2019 Mikko Murto <mikko.murto@gmail.com>'
@@ -415,6 +465,7 @@ describe('rdfParser', () => {
           'Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved.'
         );
       });
+
       it('file comment', () => {
         expect(testProjectFile1.fileComment).toEqual(undefined);
         expect(realWorldFile1.fileComment).toEqual(undefined);
@@ -428,6 +479,7 @@ describe('rdfParser', () => {
         expect(realWorldFile1.fileContributor).toEqual(undefined);
       });
     });
+
     describe('other licensing information detected', () => {
       it('license identifier', () => {
         expect(testProjectExtractedLicensingInfo.licenseIdentifier).toEqual(
@@ -437,6 +489,7 @@ describe('rdfParser', () => {
           'LicenseRef-See-doc.OTHER'
         );
       });
+
       it('extracted text', () => {
         expect(testProjectExtractedLicensingInfo.extractedText).toEqual(
           'Not find any license in the scanned file'
@@ -445,6 +498,7 @@ describe('rdfParser', () => {
           'License by Nomos.'
         );
       });
+
       it('license name', () => {
         expect(testProjectExtractedLicensingInfo.licenseName).toEqual(
           'No_license_found'
@@ -453,6 +507,7 @@ describe('rdfParser', () => {
           'See-doc.OTHER'
         );
       });
+
       it('license cross reference', () => {
         expect(testProjectExtractedLicensingInfo.licenseCrossReference).toEqual(
           undefined
@@ -461,6 +516,7 @@ describe('rdfParser', () => {
           undefined
         );
       });
+
       it('license comment', () => {
         expect(testProjectExtractedLicensingInfo.licenseComment).toEqual(
           undefined
